@@ -4,7 +4,6 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import LanguageToggle from "../components/LanguageToggle";
-import Banner from "../components/Banner";
 
 export default function HomePageJa() {
   const currentYear = new Date().getFullYear();
@@ -40,13 +39,12 @@ export default function HomePageJa() {
             href="https://www.linkedin.com/in/yuto-kuroki-a5b32b383/"
             target="_blank"
             className="ml-auto px-4 py-2 text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
+            rel="noreferrer"
           >
             LinkedInを見る
           </a>
         </div>
       </div>
-
-      
 
       <main className="w-full min-h-screen bg-neutral-100 px-6 pt-4 pb-12">
         <div className="flex w-full relative">
@@ -104,7 +102,6 @@ export default function HomePageJa() {
 
           {/* RIGHT COLUMN */}
           <section className="md:w-3/4 md:ml-8 p-6">
-
             {/* About / Highlights */}
             <section>
               <h2 className="text-xl font-medium">自己紹介</h2>
@@ -115,17 +112,15 @@ export default function HomePageJa() {
               <br/>
 
               <h2 className="text-xl font-medium flex items-center gap-2">
-                {/* Title */}
-                <strong>Project Fluence</strong>について
+                <strong>Project Fluence</strong>
 
                 {/* Clickable image */}
-                <Link href="/extra" aria-label="Go to extra page" target="_blank">
+                <Link href="/extra" aria-label="Go to extra page" target="_blank" rel="noreferrer">
                   <Image
                     src="/images/logo.png"
                     alt="Project Fluence logo"
-                    rel="noopener noreferrer"
-                    width={84} // adjust size
-                    height={84} // adjust size
+                    width={84}
+                    height={84}
                     className="rounded-md object-cover"
                   />
                 </Link>
@@ -146,7 +141,7 @@ export default function HomePageJa() {
               Project Fluenceでは、私が効果的な英語学習法をNoteで紹介するとともに、自ら開発した無料の英語学習アプリを提供していきます。
               </p>
 
-              <h2 className="mt-6 text-xl font-medium">進行中のプロジェクト</h2>
+                <h2 className="mt-6 text-xl font-medium">進行中のプロジェクト</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800">
                 <li>React + FastAPI — Project Fluenceの英語学習アプリ
                 <a
@@ -291,7 +286,7 @@ export default function HomePageJa() {
                    {" "}— 自動障害物回避システムの研究
                 </li>
                 <li>
-                  <a href="https://www.goethe.de/resources/files/pdf315/japanheute_2024.pdf" target="_blank" rel="noopener nopreferrer" className="underline">
+                  <a href="https://www.goethe.de/resources/files/pdf315/japanheute_2024.pdf" target="_blank" rel="noopener noreferrer" className="underline">
                     Jugendkurs Deutsch plus Beruf (東アジア選考突破)
                   </a>
                   — 日本人初の奨学生（Dieter Schwarz財団）、ドイツの有名大学・企業・AIセミナーへの訪問
@@ -383,9 +378,10 @@ export default function HomePageJa() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.asahi.com/articles/ASSDK2FK0SDKPLBJ001M.html" target="_blank" rel="nonopener nonreferrer" className="underline">
+                  <a href="https://www.asahi.com/articles/ASSDK2FK0SDKPLBJ001M.html" target="_blank" rel="noopener noreferrer" className="underline">
                     朝日新聞デジタル
                   </a>
+
                 </li>
 
                 <li>
@@ -420,6 +416,7 @@ export default function HomePageJa() {
               <p className="mt-3 text-neutral-700">
                 プレゼンテーション、語学指導、イベント運営、テニス、難解ルービックキューブの解法、ジャグリング、料理、なわとび
               </p>
+
             </section>
 
             {/* Footer */}

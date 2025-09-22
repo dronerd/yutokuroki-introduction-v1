@@ -4,7 +4,6 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import LanguageToggle from "./components/LanguageToggle";
-import Banner from "./components/Banner";
 
 export default function HomePageEn() {
   const currentYear = new Date().getFullYear();
@@ -27,12 +26,12 @@ export default function HomePageEn() {
       <div className="w-full sticky top-0 z-50 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 py-2 relative flex items-center">
 
-             {/* Center text */}
+          {/* Center text */}
           <div
             className="absolute left-1/2 -translate-x-1/2 text-white font-medium hover:underline text-xl cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-          Scroll to top - Yuto Kuroki's Profile
+          Scroll to top — Profile of Yuto Kuroki
           </div>
 
           {/* Right follow button */}
@@ -40,12 +39,11 @@ export default function HomePageEn() {
             href="https://www.linkedin.com/in/yuto-kuroki-a5b32b383/"
             target="_blank"
             className="ml-auto px-4 py-2 text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
-          >
+            rel="noreferrer">
             See LinkedIn
           </a>
         </div>
       </div>
-
 
       <main className="w-full min-h-screen bg-neutral-100 px-6 pt-4 pb-12">
         <div className="flex w-full relative">
@@ -55,8 +53,6 @@ export default function HomePageEn() {
               <div className="mb-6">
                 <LanguageToggle />
               </div>
-
-
               <h1 className="text-4xl font-semibold">Yuto Kuroki</h1>
               <p className="text-lg mt-2">
                 <Link
@@ -71,7 +67,6 @@ export default function HomePageEn() {
                 <br/>Founder / Developer & Operator
               </p>
 
-       
               <div className="relative h-30 w-30 sm:h-36 sm:w-36 rounded-full overflow-hidden bg-neutral-200">
                 <Image
                   src="/images/profile2.JPG"
@@ -121,20 +116,19 @@ export default function HomePageEn() {
               <strong>Project Fluence</strong>
 
               {/* Clickable image */}
-              <Link href="/extra" aria-label="Go to extra page" target="_blank">
+              <Link href="/extra" aria-label="Go to extra page" target="_blank" rel="noreferrer">
                 <Image
                   src="/images/logo.png"
                   alt="Project Fluence logo"
-                  rel="noopener noreferrer"
-                  width={84} // adjust size
-                  height={84} // adjust size
+                  width={84}
+                  height={84}
                   className="rounded-md object-cover"
                 />
               </Link>
             </h2>
 
               <p className="mt-3 leading-7 text-neutral-800">
-              I founded {" "}
+              I founded{" "}
                <Link
                   aria-label="Scroll to top"
                   href="/extra"
@@ -152,7 +146,7 @@ export default function HomePageEn() {
               {/* Latest activities */}
               <h2 className="mt-6 text-xl font-medium"><strong>Ongoing Projects</strong></h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800">
-                <li>React + FastAPI — Development of Project Fluence’s English learning app {" "}
+                <li>React + FastAPI — Development of Project Fluence — English learning app {" "}
                   <a
                     className="underline"
                     href="https://vocabstream.com"
@@ -162,7 +156,7 @@ export default function HomePageEn() {
                     <strong>VocabStream</strong>
                   </a>
                 </li>
-                <li>React + FastAPI + LLM API — Development of Project Fluence’s English learning app <strong>SpeakwiseGPT</strong>
+                <li>React + FastAPI + LLM API — Development of Project Fluence — English learning app <strong>SpeakwiseGPT</strong>
                 </li>
                 <li>Raspberry Pi（Python） — Facial Recognition System （WASEDAものづくりProgram）</li>
               </ul>
@@ -348,7 +342,7 @@ export default function HomePageEn() {
                 </li>
                 <li>Waseda University Senior & Junior High School</li>
                 <li>Novi Middle School, Michigan, USA</li>
-                <li>Childhood in Singapore (2011–2013)</li>
+                <li>Childhood in Singapore (2011-2013)</li>
               </ul>
 
               <h2 className="mt-6 text-xl font-medium"><strong>Past Activities & Presentations</strong></h2>
@@ -423,7 +417,7 @@ export default function HomePageEn() {
               </ul>
               <h2 className="mt-6 text-xl font-medium"><strong>Other Skills & Hobbies</strong></h2>
               <p className="mt-3 text-neutral-800">
-                Public speaking, language teaching, event organization, tennis, solving complex Rubik's cubes, juggling, cooking, jump rope
+                Public speaking, language teaching, event organization, tennis, solving complex Rubik&apos;s cubes, juggling, cooking, jump rope
               </p>
             </section>
 

@@ -47,14 +47,15 @@ export default function ExtraPage() {
           </div>
 
           {/* Right: optional small link */}
-          
-          <div className="absolute right-4">
 
+
+          <div className="absolute right-4">
             <Link
               href="https://note.com/projectfluence"
-              target ="_blank"
+              target="_blank"
               className="ml-auto px-4 py-2 text-sm font-medium text-white bg-blue-900 rounded-full shadow-md 
                         transform transition-transform duration-200 hover:bg-blue-700 hover:scale-105 active:scale-110 whitespace-nowrap"
+              rel="noopener noreferrer"
             >
               Noteをフォロー
             </Link>
@@ -127,7 +128,7 @@ export default function ExtraPage() {
               <div className="mt-4 flex items-center gap-4">
                 <div className="w-16 h-16 relative rounded-full overflow-hidden bg-gray-800">
                   <Image
-                    src="/images/profile2.jpg"
+                    src="/images/profile2.JPG"
                     alt="Yuto Kuroki profile"
                     fill
                     sizes="(max-width: 768px) 64px, 64px"
@@ -154,7 +155,6 @@ export default function ExtraPage() {
                 専門は情報工学で、ISEFなどの国際イベントにて研究発表の経験を持つ。
               </p>
               <div>
-                {/* pointer-events-none on the container prevents accidental capture; enable on the Link itself */}
                 <Link
                   aria-label="Scroll to top"
                   href="/"
@@ -219,8 +219,8 @@ export default function ExtraPage() {
                     src="/VocabStream.png"
                     alt="Project Fluence logo"
                     rel="noopener noreferrer"
-                    width={200} // adjust size
-                    height={200} // adjust size
+                    width={200}
+                    height={200}
                     className="rounded-md object-cover"
                   />
                 </Link>
@@ -229,15 +229,17 @@ export default function ExtraPage() {
           </section>
 
           {/* Recent Notes */}
+
           <section id="notes" className="mt-8 bg-white rounded-2xl p-6 shadow">
             <h2 className="text-2xl font-bold">最近のNote記事</h2>
             <ul className="mt-4 grid sm:grid-cols-2 gap-3">
-             近日公開
+              <li>近日公開</li>
+              {/* or map note items here */}
             </ul>
           </section>
 
-
-           {/* なぜ英語を学ぶのか */}
+          {/* ...rest unchanged... */}
+                     {/* なぜ英語を学ぶのか */}
           <section id="english-motivation" className="mt-8 bg-white rounded-2xl p-6 shadow">
             <h2 className="text-2xl font-bold">なぜ英語を学ぶのか</h2>
             <p className="mt-2 text-gray-700 leading-relaxed">
@@ -255,7 +257,7 @@ export default function ExtraPage() {
            {/* 英語の学習法について */}
           <section id="method" className="mt-8 bg-white rounded-2xl p-6 shadow"> 
             <h3 className="text-2xl font-semibold mb-2">効果的な英語学習方法
-             <p className="text-sm mt-2 font-semibold text-gray-800">(＊詳しくはNoteをご覧ください)</p>
+            <p className="text-sm mt-2 font-semibold text-gray-800">(＊詳しくはNoteをご覧ください)</p>
             </h3>
 
             {/* 上段：日本の英語学習〜本質的な英語力とは */}
