@@ -26,26 +26,47 @@ export default function HomePageJa() {
     <>
       {/* Sticky Banner */}
       <div className="w-full sticky top-0 z-50 bg-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 py-3 relative flex items-center">
-          {/* Center text - shorter on small screens */}
+        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center relative md:pr-24 lg:pr-8 xl:pr-0">
+          {/* ページトップ */}
           <a
             href="#top"
-            className="absolute left-1/2 -translate-x-1/2 text-white font-medium hover:underline text-lg sm:text-lg cursor-pointer select-none"
+            className={
+              "text-white font-medium hover:underline text-lg cursor-pointer select-none " +
+              "text-left md:text-center " +
+              "md:absolute md:left-1/2 md:-translate-x-1/2"
+            }
             aria-label="ページトップへスクロール"
           >
-            <span className="inline sm:hidden">ページトップへ</span>
-            <span className="hidden sm:inline">ページトップへ — 黒木勇人のプロファイル</span>
+            <span className="inline md:hidden">ページトップ</span>
+            <span className="hidden md:inline">ページトップへ — 黒木勇人のプロファイル</span>
           </a>
 
-          {/* Right follow button */}
-          <a
-            href="https://www.linkedin.com/in/yuto-kuroki-a5b32b383/"
-            target="_blank"
-            rel="noreferrer"
-            className="ml-auto px-3 py-2 text-sm sm:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
-          >
-            LinkedInを見る
-          </a>
+          {/* 右側のボタン群 */}
+          <div className="ml-auto flex items-center gap-3 lg:mr-6 xl:mr-12">
+            {/* LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/yourprofile"
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-2 text-sm md:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
+              aria-label="外部リンク: LinkedIn"
+            >
+              <span className="inline md:hidden">LinkedIn</span>
+              <span className="hidden md:inline">LinkedInを見る</span>
+            </a>
+
+            {/* GitHub */}
+            <a
+              href="https://github.com/dronerd"
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-2 text-sm md:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
+              aria-label="外部リンク: GitHub"
+            >
+              <span className="inline md:hidden">GitHub</span>
+              <span className="hidden md:inline">GitHubを見る</span>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -352,7 +373,7 @@ export default function HomePageJa() {
             </section>
 
             {/* Footer */}
-            <footer className="mt-12 border-t pt-6 text-sm text-neutral-500 text-center md:text-left">
+            <footer className="mt-12 border-t pt-6 text-sm text-neutral-500 md:text-left">
               All content © {currentYear} 黒木勇人
             </footer>
             <Link href="/privacy" target="_blank">

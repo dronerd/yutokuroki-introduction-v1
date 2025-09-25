@@ -27,26 +27,47 @@ export default function HomePageEn() {
     <>
       {/* Sticky Banner */}
       <div className="w-full sticky top-0 z-50 bg-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 py-3 relative flex items-center">
-          {/* Responsive center text: short on small screens, full on sm+ */}
+        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center relative md:pr-24 lg:pr-8 xl:pr-0">
+          {/* ページトップ */}
           <a
             href="#top"
-            className="absolute left-1/2 -translate-x-1/2 text-white font-medium hover:underline text-lg sm:text-lg cursor-pointer select-none"
+            className={
+              "text-white font-medium hover:underline text-lg cursor-pointer select-none " +
+              "text-left md:text-center " +
+              "md:absolute md:left-1/2 md:-translate-x-1/2"
+            }
             aria-label="ページトップへスクロール"
           >
-            <span className="inline sm:hidden">Scroll to top</span>
-            <span className="hidden sm:inline">Scroll to top — Yuto Kuroki&apos;s Profile</span>
+            <span className="inline md:hidden">Scroll to top</span>
+            <span className="hidden md:inline">Scroll to top — Yuto Kuroki's Profile</span>
           </a>
 
-          {/* Right follow button */}
-          <a
-            href="https://www.linkedin.com/in/yuto-kuroki-a5b32b383/"
-            target="_blank"
-            className="ml-auto px-3 py-2 text-sm sm:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
-            rel="noreferrer"
-          >
-            See LinkedIn
-          </a>
+          {/* 右側のボタン群 */}
+          <div className="ml-auto flex items-center gap-3 lg:mr-6 xl:mr-12">
+            {/* LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/yourprofile"
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-2 text-sm md:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
+              aria-label="外部リンク: LinkedIn"
+            >
+              <span className="inline md:hidden">LinkedIn</span>
+              <span className="hidden md:inline">See LinkedIn</span>
+            </a>
+
+            {/* GitHub */}
+            <a
+              href="https://github.com/dronerd"
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-2 text-sm md:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
+              aria-label="外部リンク: GitHub"
+            >
+              <span className="inline md:hidden">GitHub</span>
+              <span className="hidden md:inline">See GitHub</span>
+            </a>
+          </div>
         </div>
       </div>
 
