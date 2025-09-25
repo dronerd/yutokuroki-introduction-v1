@@ -81,7 +81,7 @@ export default function HomePageJa() {
               </div>
 
               <p className="text-sm sm:text-base leading-relaxed px-2 md:px-0">
-                <strong className="block">早稲田大学基幹理工学部1年（情報系）</strong>
+                <strong className="block">早稲田大学基幹理工学部1年(情報系)</strong>
                 <span className="block mt-1">
                   ソフトウェア開発、機械学習、異文化コミュニケーションに強い関心を持つ。技術研究と国際経験の融合を目指す。
                 </span>
