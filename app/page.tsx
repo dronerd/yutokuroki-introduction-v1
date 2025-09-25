@@ -39,7 +39,7 @@ export default function HomePageEn() {
             aria-label="ページトップへスクロール"
           >
             <span className="inline md:hidden">Scroll to top</span>
-            <span className="hidden md:inline">Scroll to top — Yuto Kuroki's Profile</span>
+            <span className="hidden md:inline">Scroll to top — Yuto Kuroki&apos;s Profile</span>
           </a>
 
           {/* 右側のボタン群 */}
