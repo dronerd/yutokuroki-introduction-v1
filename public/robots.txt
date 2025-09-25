@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yutokuroki.vercel.app/sitemap.xml
