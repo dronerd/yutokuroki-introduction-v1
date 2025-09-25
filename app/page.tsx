@@ -36,7 +36,7 @@ export default function HomePageEn() {
               "text-left md:text-center " +
               "md:absolute md:left-1/2 md:-translate-x-1/2"
             }
-            aria-label="ページトップへスクロール"
+            aria-label="scroll to top"
           >
             <span className="inline md:hidden">Scroll to top</span>
             <span className="hidden md:inline">Scroll to top — Yuto Kuroki&apos;s Profile</span>
@@ -46,11 +46,11 @@ export default function HomePageEn() {
           <div className="ml-auto flex items-center gap-3 lg:mr-6 xl:mr-12">
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/yuto-kuroki-a5b32b383/"
               target="_blank"
               rel="noreferrer"
               className="px-3 py-2 text-sm md:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
-              aria-label="外部リンク: LinkedIn"
+              aria-label="external link: LinkedIn"
             >
               <span className="inline md:hidden">LinkedIn</span>
               <span className="hidden md:inline">See LinkedIn</span>
@@ -62,7 +62,7 @@ export default function HomePageEn() {
               target="_blank"
               rel="noreferrer"
               className="px-3 py-2 text-sm md:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
-              aria-label="外部リンク: GitHub"
+              aria-label="external link: GitHub"
             >
               <span className="inline md:hidden">GitHub</span>
               <span className="hidden md:inline">See GitHub</span>
