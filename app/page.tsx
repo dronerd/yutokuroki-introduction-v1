@@ -207,7 +207,7 @@ export default function HomePageEn() {
                 
                 <li>
                   <strong>Nov 23, 2025: </strong>
-                  Planned speaking on stage at PASCH Treffen by Goethe Institut TokyoS
+                  Planned speaking on stage at PASCH Treffen by Goethe Institut Tokyo
                 </li>
 
                 <li>
