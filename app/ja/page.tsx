@@ -192,9 +192,13 @@ export default function HomePageJa() {
                   にてNSSメンバーとしてドローン研究を発表（東京テレコムセンター）
                 </li>
                 <li>
-                  <strong>2025年12月：</strong>
+                  <strong>2025年11月23日：</strong>
+                  Goethe Institut Tokyo開催のPASCH Treffenで登壇予定
+                </li>
+                <li>
+                  <strong>2025年12月14日：</strong>
                   <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
-                    JSEC
+                    JSEC2025（高校生・高専生科学技術チャレンジ）
                   </a>
                   最終選考会のサポート
                 </li>
@@ -245,17 +249,19 @@ export default function HomePageJa() {
                   <a href="https://www.ciec.or.jp/special/entry-1484.html" target="_blank" rel="noopener noreferrer" className="underline">
                     2025 CIEC 春季カンファレンス U-18部門 最優秀賞
                   </a>
+                  — 効率的なドローン配送の自動化の研究
                 </li>
                 <li>
                   <a href="https://www.ciec.or.jp/special/entry-1436.html" target="_blank" rel="noopener noreferrer" className="underline">
                     2024 CIEC 春季カンファレンス U-18部門 奨励賞
                   </a>
+                  — 機械学習を活用した自動障害物回避システムの研究
                 </li>
                 <li>
                   <a href="https://www.goethe.de/resources/files/pdf315/japanheute_2024.pdf" target="_blank" rel="noopener noreferrer" className="underline">
                     Jugendkurs Deutsch plus Beruf
                   </a>
-                  — 日本人初の奨学生（Dieter Schwarz財団）
+                  — 日本人初の奨学生（Dieter Schwarz財団）、ドイツの有名な工科大学・企業・AIセミナーへの訪問
                 </li>
               </ul>
 

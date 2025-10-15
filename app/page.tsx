@@ -190,20 +190,6 @@ export default function HomePageEn() {
               </Link>
             </section>
 
-            {/* Academic Records */}
-            <section className="mt-6">
-              <h2 className="text-xl font-medium">
-                <strong>GPA at Waseda University</strong>
-              </h2>
-              <p className="mt-2 text-base text-sm sm:text-base">
-                US Scale (Unweighted A・A+ =4.0): <strong>4.0 </strong>/ 4.0
-                <br />
-                US Scale (Weighted, A+=4.3): <strong>4.27 </strong>/ 4.0
-                <br />
-                Waseda University Scale (A=3, A+=4): <strong>3.89 </strong>/ 4.0
-              </p>
-            </section>
-
             {/* Upcoming Activities & Articles */}
             <section className="mt-6">
               <h2 className="text-xl font-medium">
@@ -218,11 +204,17 @@ export default function HomePageEn() {
                   </a>{" "}
                   by JST — Tokyo Telecom Center
                 </li>
+                
                 <li>
-                  <strong>Dec 2025: </strong>
+                  <strong>Nov 23, 2025: </strong>
+                  Planned speaking on stage at PASCH Treffen by Goethe Institut TokyoS
+                </li>
+
+                <li>
+                  <strong>Dec 14, 2025: </strong>
                   Supporting the final round of{" "}
                   <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
-                    JSEC
+                    JSEC2025(Japan Science and Engineering Challenge)
                   </a>
                 </li>
               </ul>
@@ -240,6 +232,20 @@ export default function HomePageEn() {
                   </li>
                 ))}
               </ul>
+            </section>
+
+             {/* Academic Records */}
+            <section className="mt-6">
+              <h2 className="text-xl font-medium">
+                <strong>GPA at Waseda University</strong>
+              </h2>
+              <p className="mt-2 text-base text-sm sm:text-base">
+                US Scale (Unweighted A・A+ =4.0): <strong>4.0 </strong>/ 4.0
+                <br />
+                US Scale (Weighted, A+=4.3): <strong>4.27 </strong>/ 4.0
+                <br />
+                Waseda University Scale (A=3, A+=4): <strong>3.89 </strong>/ 4.0
+              </p>
             </section>
 
             {/* Research & Awards */}
@@ -276,7 +282,7 @@ export default function HomePageEn() {
                   <a href="https://www.ciec.or.jp/special/entry-1436.html" target="_blank" rel="noopener noreferrer" className="underline">
                     2024 CIEC Spring Conference 3rd Place (U-18)
                   </a>
-                  — Research on autonomous obstacle avoidance system
+                  — Research on autonomous obstacle avoidance system based on ML
                 </li>
                 <li>
                   <a href="https://www.goethe.de/resources/files/pdf315/japanheute_2024.pdf" target="_blank" rel="noopener noreferrer" className="underline">
