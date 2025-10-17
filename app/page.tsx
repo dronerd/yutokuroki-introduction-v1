@@ -21,8 +21,6 @@ export const metadata = {
 export default function HomePageEn() {
   const currentYear = new Date().getFullYear();
 
-  const noteArticles = ["..."];
-
   return (
     <>
       {/* Sticky Banner */}
@@ -219,18 +217,26 @@ export default function HomePageEn() {
                 </li>
               </ul>
 
+            {/* Latest Note articles */}
               <h2 className="mt-6 text-xl font-medium">
                 <strong>Latest Note Articles</strong>
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
-                {noteArticles.map((title) => (
-                  <li key={title} className="py-0.5">
-                    coming soon{" "}
+                <li key="Note Article1" className="py-0.5">
                     <a href="#" className="underline" target="_blank" rel="noopener noreferrer">
-                      {title}
+                      大学生の自己紹介 ― 黒木勇人｜Project Fluence｜英語アプリ｜英検１級・TOEIC満点・TOEFL116/120・ドイツ語上級
                     </a>
-                  </li>
-                ))}
+                </li>
+                <li key="Note Article2" className="py-0.5">
+                    <a href="#" className="underline" target="_blank" rel="noopener noreferrer">
+                      日本にいながらネイティブ級へ─英語力を効果的に伸ばす学習方法｜英検１級・TOEIC満点・TOEFL116/120・ドイツ語上級
+                    </a>
+                </li>
+                <li key="Note Article3" className="py-0.5">
+                    <a href="#" className="underline" target="_blank" rel="noopener noreferrer">
+                      英語学習にも応用できる！第２外国語（ドイツ語）から見えてきた効果的な言語学習法
+                    </a>
+                </li>
               </ul>
             </section>
 
