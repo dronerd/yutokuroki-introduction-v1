@@ -175,7 +175,7 @@ export default function HomePageEn() {
               </ul>
 
               <h2 className="mt-6 text-xl font-medium">
-                <strong>Latest Apps coming soon</strong>
+                <strong>Latest Apps</strong>
               </h2>
               <p className="mt-2 text-neutral-900 text-sm sm:text-base">
                 English vocabulary learning app{" "}

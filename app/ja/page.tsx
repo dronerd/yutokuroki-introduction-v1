@@ -166,7 +166,7 @@ export default function HomePageJa() {
                 <li>Raspberry Pi（Python） — 顔認識システム（WASEDAものづくりプログラム）</li>
               </ul>
 
-              <h2 className="mt-6 text-xl font-medium">近日公開するアプリ</h2>
+              <h2 className="mt-6 text-xl font-medium">公開中のアプリ</h2>
               <p className="mt-2 text-neutral-900 text-sm sm:text-base">
                 英単語学習アプリ{" "}
                 <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
