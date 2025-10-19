@@ -216,11 +216,6 @@ export default function HomePageJa() {
                       日本にいながらネイティブ級へ─英語力を効果的に伸ばす学習方法｜英検１級・TOEIC満点・TOEFL116/120・ドイツ語上級
                     </a>
                 </li>
-                <li key="Note Article3" className="py-0.5">
-                    <a href="#" className="underline" target="_blank" rel="noopener noreferrer">
-                      英語学習にも応用できる！第２外国語（ドイツ語）から見えてきた効果的な言語学習法
-                    </a>
-                </li>
               </ul>
             </section>
 
