@@ -207,12 +207,12 @@ export default function HomePageJa() {
               <h2 className="mt-6 text-xl font-medium">最近執筆したNote記事</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li key="Note Article1" className="py-0.5">
-                    <a href="#" className="underline" target="_blank" rel="noopener noreferrer">
+                    <a href="https://note.com/projectfluence/n/n05e8b127014f" className="underline" target="_blank" rel="noopener noreferrer">
                       大学生の自己紹介 ― 黒木勇人｜Project Fluence｜英語アプリ｜英検１級・TOEIC満点・TOEFL116/120・ドイツ語上級
                     </a>
                 </li>
                 <li key="Note Article2" className="py-0.5">
-                    <a href="#" className="underline" target="_blank" rel="noopener noreferrer">
+                    <a href="https://note.com/projectfluence/n/nd806d6fa00ec" className="underline" target="_blank" rel="noopener noreferrer">
                       日本にいながらネイティブ級へ─英語力を効果的に伸ばす学習方法｜英検１級・TOEIC満点・TOEFL116/120・ドイツ語上級
                     </a>
                 </li>
