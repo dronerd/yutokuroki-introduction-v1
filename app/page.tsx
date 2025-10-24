@@ -336,7 +336,7 @@ export default function HomePageEn() {
                     <br />
                     SAT 1530/1600
                   </li>
-                  <li>German — Goethe Zertifikat C1 (CEFR C1)</li>
+                  <li>German — Goethe-Zertifikat C2 (CEFR C2) in Reading, Listening, and Speaking and C1 in Writing </li>
                   <li>Others — Basic Swedish </li>
                 </ul>
               </div>

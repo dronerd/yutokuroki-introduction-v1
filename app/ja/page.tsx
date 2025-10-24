@@ -302,7 +302,7 @@ export default function HomePageJa() {
                     <br />
                     SAT 1530/1600
                   </li>
-                  <li>ドイツ語 — Goethe Zertifikat C1 (CEFR C1)</li>
+                  <li>ドイツ語 — Goethe-Zertifikat C2 (CEFRC2) の読む・聞く・話す技能とC1の書く技能</li>
                   <li>その他 — 基礎のスウェーデン語</li>
                 </ul>
               </div>
