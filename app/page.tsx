@@ -193,16 +193,7 @@ export default function HomePageEn() {
               <h2 className="text-xl font-medium">
                 <strong>Upcoming Activities</strong>
               </h2>
-              <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
-                <li>
-                  <strong>Oct 26, 2025: </strong>
-                  Presenting drone research as an NSS member at{" "}
-                  <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
-                    Science Agora
-                  </a>{" "}
-                  by JST — Tokyo Telecom Center
-                </li>
-                
+              <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">            
                 <li>
                   <strong>Nov 23, 2025: </strong>
                   Planned speaking on stage at PASCH Treffen by Goethe Institut Tokyo
@@ -373,6 +364,13 @@ export default function HomePageEn() {
                 </li>
                 <li>School representative speech to 1000+ prospective students and families</li>
                 <li>Presentation at Goethe Institut Tokyo</li>
+                <li>
+                  Presenting drone research as an NPO NSS member at{" "}
+                  <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
+                    Science Agora
+                  </a>{" "}
+                  by JST — Tokyo Telecom Center
+                </li>
               </ul>
             </section>
 

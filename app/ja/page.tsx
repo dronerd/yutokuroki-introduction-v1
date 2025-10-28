@@ -183,14 +183,6 @@ export default function HomePageJa() {
               <h2 className="text-xl font-medium">今後の活動</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  <strong>2025年10月26日：</strong>
-                  JST主催{" "}
-                  <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
-                    サイエンスアゴラ
-                  </a>
-                  にてNSSメンバーとしてドローン研究を発表（東京テレコムセンター）
-                </li>
-                <li>
                   <strong>2025年11月23日：</strong>
                   Goethe Institut Tokyo開催のPASCH Treffenで登壇予定
                 </li>
@@ -335,6 +327,13 @@ export default function HomePageJa() {
                 </li>
                 <li>学校説明会での生徒代表スピーチ（1000名以上の聴衆）</li>
                 <li>ゲーテ・インスティトゥート東京でのプレゼンテーション</li>
+                <li>
+                  JST主催{" "}
+                  <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
+                    サイエンスアゴラ
+                  </a>
+                  にてNPO法人NSSメンバーとしてドローン研究を発表（東京テレコムセンター）
+                </li>
               </ul>
             </section>
 
