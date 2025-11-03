@@ -44,7 +44,7 @@ export default function HomePageJa() {
           <div className="ml-auto flex items-center gap-3 lg:mr-6 xl:mr-12">
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/yuto-kuroki-a5b32b383/"
+              href="https://www.linkedin.com/in/yutokuroki/"
               target="_blank"
               rel="noreferrer"
               className="px-3 py-2 text-sm md:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
@@ -117,7 +117,7 @@ export default function HomePageJa() {
                 <a href="https://github.com/dronerd" target="_blank" rel="noopener noreferrer" className="underline">
                   GitHub
                 </a>
-                <a href="https://www.linkedin.com/in/yuto-kuroki-a5b32b383/" target="_blank" rel="noopener noreferrer" className="underline">
+                <a href="https://www.linkedin.com/in/yutokuroki/" target="_blank" rel="noopener noreferrer" className="underline">
                   LinkedIn
                 </a>
               </div>
