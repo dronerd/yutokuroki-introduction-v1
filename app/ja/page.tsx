@@ -90,7 +90,7 @@ export default function HomePageJa() {
               {/* Profile image */}
               <div className="flex-shrink-0 h-28 w-28 sm:h-36 sm:w-36 rounded-full overflow-hidden bg-neutral-200 mx-auto md:mx-0">
                 <Image
-                  src="/images/profile2.JPG"
+                  src="/images/profile3.JPG"
                   alt="黒木勇人のプロフィール画像"
                   width={144}
                   height={144}

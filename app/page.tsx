@@ -91,7 +91,7 @@ export default function HomePageEn() {
               {/* Profile image — fixed-size */}
               <div className="flex-shrink-0 h-28 w-28 sm:h-36 sm:w-36 rounded-full overflow-hidden bg-neutral-200 mx-auto md:mx-0">
                 <Image
-                  src="/images/profile2.JPG"
+                  src="/images/profile3.JPG"
                   alt="Profile of Yuto Kuroki"
                   width={144}
                   height={144}
@@ -101,7 +101,7 @@ export default function HomePageEn() {
                 />
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed px-2 md:px-0">
+              <p className="text-sm sm:text-base leading-snug px-2 md:px-0">
                 <strong className="block text-base">
                   Freshman CS student at Waseda University School of Fundamental Science and Engineering
                 </strong>
