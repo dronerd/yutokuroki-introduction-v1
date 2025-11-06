@@ -406,13 +406,13 @@ export default function HomePageEn() {
                   Waseda University Senior High School website:{" "}
                   <a href="https://www.waseda.jp/school/shs/news/2024/04/05/8235/" target="_blank" rel="noopener noreferrer" className="underline mr-4">
                     CIEC2024 award
-                  </a>
+                  </a>{" "}
                   <a href="https://www.waseda.jp/school/shs/news/2025/04/25/9556/" target="_blank" rel="noopener noreferrer" className="underline mr-4">
                     CIEC2025 award
-                  </a>
+                  </a>{" "}
                   <a href="https://www.waseda.jp/school/shs/news/2024/12/27/9173/" target="_blank" rel="noopener noreferrer" className="underline">
                     JSEC Finalist Sony Award
-                  </a>
+                  </a>{" "}
                   <a href="https://www.waseda.jp/school/shs/news/2025/10/01/10001/" target="_blank" rel="noopener noreferrer" className="underline">
                     Inteview on passing the Goethe Zertifikat C1
                   </a>
