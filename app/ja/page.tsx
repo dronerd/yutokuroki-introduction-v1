@@ -367,16 +367,16 @@ export default function HomePageJa() {
                 <li>
                   早稲田大学高等学院ホームページ：
                   <a href="https://www.waseda.jp/school/shs/news/2024/04/05/8235/" target="_blank" rel="noopener noreferrer" className="underline">
-                    CIEC2024受賞
+                    CIEC2024受賞 、
                   </a>{" "}
                   <a href="https://www.waseda.jp/school/shs/news/2025/04/25/9556/" target="_blank" rel="noopener noreferrer" className="underline">
-                    CIEC2025受賞
+                    CIEC2025受賞 、
                   </a>{" "}
                   <a href="https://www.waseda.jp/school/shs/news/2024/12/27/9173/" target="_blank" rel="noopener noreferrer" className="underline">
-                    JSEC最終審査ソニー賞
+                    JSEC最終審査ソニー賞 、
                   </a>{" "}
                   <a href="https://www.waseda.jp/school/shs/news/2025/10/01/10001/" target="_blank" rel="noopener noreferrer" className="underline">
-                    Goethe Zertifikat C1 合格インタビュー
+                    Goethe Zertifikat C1 合格 、
                   </a>
                 </li>
               </ul>
