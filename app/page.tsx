@@ -413,6 +413,9 @@ export default function HomePageEn() {
                   <a href="https://www.waseda.jp/school/shs/news/2024/12/27/9173/" target="_blank" rel="noopener noreferrer" className="underline">
                     JSEC Finalist Sony Award
                   </a>
+                  <a href="https://www.waseda.jp/school/shs/news/2025/10/01/10001/" target="_blank" rel="noopener noreferrer" className="underline">
+                    Inteview on passing the Goethe Zertifikat C1
+                  </a>
                 </li>
               </ul>
               <h2 className="mt-6 text-xl font-medium">

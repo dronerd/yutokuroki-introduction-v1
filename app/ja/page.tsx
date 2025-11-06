@@ -375,6 +375,9 @@ export default function HomePageJa() {
                   <a href="https://www.waseda.jp/school/shs/news/2024/12/27/9173/" target="_blank" rel="noopener noreferrer" className="underline">
                     JSEC最終審査ソニー賞
                   </a>
+                  <a href="https://www.waseda.jp/school/shs/news/2025/10/01/10001/" target="_blank" rel="noopener noreferrer" className="underline">
+                    Goethe Zertifikat C1 合格インタビュー
+                  </a>
                 </li>
               </ul>
 
