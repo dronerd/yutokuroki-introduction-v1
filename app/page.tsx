@@ -170,7 +170,6 @@ export default function HomePageEn() {
                     <strong>VocabStream</strong>
                   </a>
                 </li>
-                <li>React + FastAPI + LLM API — Development of Project Fluence — English learning app <strong>SpeakwiseGPT</strong></li>
                 <li>Raspberry Pi（Python） — Facial Recognition System （WASEDAものづくりProgram）</li>
               </ul>
 
@@ -200,11 +199,21 @@ export default function HomePageEn() {
                 </li>
 
                 <li>
+                  <strong>Nov 29, 2025: </strong>
+                  Planned Special Guest Speech at the Waseda University School of Political Science and Economics annual German Speech Contest
+                </li>
+
+                <li>
                   <strong>Dec 14, 2025: </strong>
                   Supporting the final round of{" "}
                   <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
                     JSEC2025(Japan Science and Engineering Challenge)
                   </a>
+                </li>
+
+                <li>
+                  <strong>2026 February~ March</strong>
+                  Planned AI engineer internship at Rakuten AI for Business
                 </li>
               </ul>
 

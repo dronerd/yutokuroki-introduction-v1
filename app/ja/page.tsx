@@ -162,7 +162,6 @@ export default function HomePageJa() {
                   </a>
                   の開発
                 </li>
-                <li>React + FastAPI + LLM API — SpeakwiseGPT の開発</li>
                 <li>Raspberry Pi（Python） — 顔認識システム（WASEDAものづくりプログラム）</li>
               </ul>
 
@@ -187,11 +186,19 @@ export default function HomePageJa() {
                   Goethe Institut Tokyo開催のPASCH Treffenで登壇予定
                 </li>
                 <li>
+                  <strong>2025年11月29日：</strong>
+                  早稲田大学政治経済学部主催のドイツ語スピーチコンテストにて特別ゲストスピーチ予定
+                </li>
+                <li>
                   <strong>2025年12月14日：</strong>
                   <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
                     JSEC2025（高校生・高専生科学技術チャレンジ）
                   </a>
                   最終選考会のサポート
+                </li>
+                <li>
+                  <strong>2026年2月〜3月：</strong>
+                  楽天AI for BusinessでのAIエンジニアインターンシップ予定
                 </li>
               </ul>
 
