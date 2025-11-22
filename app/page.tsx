@@ -212,7 +212,7 @@ export default function HomePageEn() {
                 </li>
 
                 <li>
-                  <strong>2026 February~ March</strong>
+                  <strong>2026 February~ March: </strong>
                   Planned AI engineer internship at Rakuten AI for Business
                 </li>
               </ul>
@@ -362,6 +362,7 @@ export default function HomePageEn() {
                 <strong>Past Activities & Presentations</strong>
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>Waseda University Senior Highschool Tennis club</li>
                 <li>Toshiba Youth Club Asia (Team Leader)</li>
                 <li>
                   <a href="https://spice.fsi.stanford.edu/fellowship/stanford-e-japan" target="_blank" rel="noopener noreferrer" className="underline">

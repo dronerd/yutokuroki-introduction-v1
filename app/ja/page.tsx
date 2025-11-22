@@ -20,7 +20,6 @@ export const metadata = {
 
 export default function HomePageJa() {
   const currentYear = new Date().getFullYear();
-
   return (
     <>
       {/* Sticky Banner */}
@@ -324,6 +323,7 @@ export default function HomePageJa() {
 
               <h2 className="mt-6 text-xl font-medium">過去の活動・発表</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>早稲田大学高等学院 テニス部</li>
                 <li>Toshiba Youth Club Asia（チームリーダー）</li>
                 <li>
                   <a href="https://spice.fsi.stanford.edu/fellowship/stanford-e-japan" target="_blank" rel="noopener noreferrer" className="underline">
