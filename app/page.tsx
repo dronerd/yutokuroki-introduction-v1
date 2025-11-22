@@ -339,6 +339,8 @@ export default function HomePageEn() {
                     Eiken Grade 1 (top 1% score at 14 years old),
                     <br />
                     SAT 1530/1600
+                    <br />
+                    Cambridge C2 Exam (CPE) (Full scores in Reading and Listening)
                   </li>
                   <li>German — Goethe-Zertifikat C2 (CEFR C2) in Reading, Listening, and Speaking and C1 in Writing </li>
                   <li>Others — Basic Swedish </li>

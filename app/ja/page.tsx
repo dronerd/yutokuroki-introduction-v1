@@ -304,8 +304,10 @@ export default function HomePageJa() {
                     英検1級 (中学2年で上位1%合格),
                     <br />
                     SAT 1530/1600
+                    <br />
+                    ケンブリッジ英検C2 (CPE) 合格 (リーディング・リスニング満点)
                   </li>
-                  <li>ドイツ語 — Goethe-Zertifikat C2 (CEFRC2) の読む・聞く・話す技能とC1の書く技能</li>
+                  <li>ドイツ語 — 世界最難関のドイツ語検定試験Goethe-Zertifikat C2 (CEFRC2) の読む・聞く・話す技能とC1の書く技能</li>
                   <li>その他 — 基礎のスウェーデン語</li>
                 </ul>
               </div>
