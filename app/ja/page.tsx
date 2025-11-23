@@ -197,7 +197,7 @@ export default function HomePageJa() {
                 </li>
                 <li>
                   <strong>2026年2月〜3月：</strong>
-                  楽天AI for BusinessでのAIエンジニアインターンシップ予定
+                  Rakuten AI for BusinessでのAIエンジニアインターンシップ予定
                 </li>
               </ul>
 
