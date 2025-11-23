@@ -194,11 +194,6 @@ export default function HomePageEn() {
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">            
                 <li>
-                  <strong>Nov 23, 2025: </strong>
-                  Planned speaking on stage at PASCH Treffen by Goethe Institut Tokyo
-                </li>
-
-                <li>
                   <strong>Nov 29, 2025: </strong>
                   Planned Special Guest Speech at the Waseda University School of Political Science and Economics annual German Speech Contest
                 </li>
@@ -379,7 +374,7 @@ export default function HomePageEn() {
                   — Presenter &amp; Moderator
                 </li>
                 <li>School representative speech to 1000+ prospective students and families</li>
-                <li>Presentation at Goethe Institut Tokyo</li>
+                <li>Presentations at Goethe Institut Tokyo ("Jugendkurs Deutsch plus Beruf", "Der Wert des Deutschlernens, ein Rückblick")</li>
                 <li>
                   Presenting drone research as an NPO NSS member at{" "}
                   <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">

@@ -181,10 +181,6 @@ export default function HomePageJa() {
               <h2 className="text-xl font-medium">今後の活動</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  <strong>2025年11月23日：</strong>
-                  Goethe Institut Tokyo開催のPASCH Treffenで登壇予定
-                </li>
-                <li>
                   <strong>2025年11月29日：</strong>
                   早稲田大学政治経済学部主催のドイツ語スピーチコンテストにて特別ゲストスピーチ予定
                 </li>
@@ -340,7 +336,7 @@ export default function HomePageJa() {
                   — 発表者・モデレーター
                 </li>
                 <li>学校説明会での生徒代表スピーチ（1000名以上の聴衆）</li>
-                <li>ゲーテ・インスティトゥート東京でのプレゼンテーション</li>
+                <li>ゲーテ・インスティトゥート東京でのプレゼンテーション ("Jugendkurs Deutsch plus Beruf", "Der Wert des Deutschlernens, ein Rückblick")</li>
                 <li>
                   JST主催{" "}
                   <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
