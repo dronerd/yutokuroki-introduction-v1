@@ -374,7 +374,9 @@ export default function HomePageEn() {
                   — Presenter &amp; Moderator
                 </li>
                 <li>School representative speech to 1000+ prospective students and families</li>
-                <li>Presentations at Goethe Institut Tokyo ("Jugendkurs Deutsch plus Beruf", "Der Wert des Deutschlernens, ein Rückblick")</li>
+                <li>
+                  Presentations at Goethe Institut Tokyo (&quot;Jugendkurs Deutsch plus Beruf&quot;, &quot;Der Wert des Deutschlernens, ein Rückblick&quot;)
+                </li>
                 <li>
                   Presenting drone research as an NPO NSS member at{" "}
                   <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">

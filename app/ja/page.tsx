@@ -336,7 +336,9 @@ export default function HomePageJa() {
                   — 発表者・モデレーター
                 </li>
                 <li>学校説明会での生徒代表スピーチ（1000名以上の聴衆）</li>
-                <li>ゲーテ・インスティトゥート東京でのプレゼンテーション ("Jugendkurs Deutsch plus Beruf", "Der Wert des Deutschlernens, ein Rückblick")</li>
+                <li>
+                  ゲーテ・インスティトゥート東京でのプレゼンテーション (&quot;Jugendkurs Deutsch plus Beruf&quot;, &quot;Der Wert des Deutschlernens, ein Rückblick&quot;)
+                </li>
                 <li>
                   JST主催{" "}
                   <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
