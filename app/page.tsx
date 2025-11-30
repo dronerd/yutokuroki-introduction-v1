@@ -193,10 +193,6 @@ export default function HomePageEn() {
                 <strong>Upcoming Activities</strong>
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">            
-                <li>
-                  <strong>Nov 29, 2025: </strong>
-                  Planned Special Guest Speech at the Waseda University School of Political Science and Economics annual German Speech Contest
-                </li>
 
                 <li>
                   <strong>Dec 14, 2025: </strong>
@@ -383,6 +379,9 @@ export default function HomePageEn() {
                     Science Agora
                   </a>{" "}
                   by JST — Tokyo Telecom Center
+                </li>
+                <li>
+                  Special Guest Speech at the Waseda University School of Political Science and Economics German Speech Contest
                 </li>
               </ul>
             </section>

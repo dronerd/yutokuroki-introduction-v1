@@ -181,10 +181,6 @@ export default function HomePageJa() {
               <h2 className="text-xl font-medium">今後の活動</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  <strong>2025年11月29日：</strong>
-                  早稲田大学政治経済学部主催のドイツ語スピーチコンテストにて特別ゲストスピーチ予定
-                </li>
-                <li>
                   <strong>2025年12月14日：</strong>
                   <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
                     JSEC2025（高校生・高専生科学技術チャレンジ）
@@ -345,6 +341,9 @@ export default function HomePageJa() {
                     サイエンスアゴラ
                   </a>
                   にてNPO法人NSSメンバーとしてドローン研究を発表（東京テレコムセンター）
+                </li>
+                <li>
+                  早稲田大学政治経済学部のドイツ語スピーチコンテストにて特別ゲストスピーチ
                 </li>
               </ul>
             </section>
