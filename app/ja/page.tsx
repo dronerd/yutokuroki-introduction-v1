@@ -211,6 +211,11 @@ export default function HomePageJa() {
                       英語学習にも応用できる！第２外国語（ドイツ語）から見えてきた効果的な言語学習法
                     </a>
                 </li>  
+                <li key="Note Article4" className="py-0.5">
+                    <a href="https://note.com/projectfluence/n/nb5ee0137b415" className="underline" target="_blank" rel="noopener noreferrer">
+                      世界最難関の英語検定試験：ケンブリッジ英検C2 Proficiency（CPE）に合格しました！（リーディング・リスニング満点）
+                    </a>
+                </li> 
               </ul>
             </section>
 
