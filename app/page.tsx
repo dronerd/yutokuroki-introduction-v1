@@ -204,7 +204,7 @@ export default function HomePageEn() {
 
                 <li>
                   <strong>2026 February~ March: </strong>
-                  Planned AI engineer internship at Rakuten AI for Business
+                  Accepted for AI engineer internship at Rakuten AI for Business
                 </li>
               </ul>
 
