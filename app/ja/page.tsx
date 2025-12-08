@@ -149,7 +149,7 @@ export default function HomePageJa() {
                 <Link aria-label="Project Fluence" href="https://projectfluence.vercel.app" className="underline" target="_blank">
                   <strong>Project Fluence</strong>
                 </Link>
-                を立ち上げ、開発・運営を個人で行っています。Noteでの解説や無料アプリ提供を通じて支援していきます。
+                を立ち上げ、開発・運営を個人で行っています。Noteでの解説や個人開発する英語アプリ提供を通じて支援していきます。
               </p>
 
               <h2 className="mt-6 text-xl font-medium">進行中のプロジェクト</h2>
