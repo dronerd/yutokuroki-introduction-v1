@@ -375,6 +375,7 @@ export default function HomePageEn() {
                 </li>
                 <li>
                   Activities as a staff member of the 
+                   {" "}
                   <a className="underline" href="https://nss.or.jp/" target="_blank" rel="noopener noreferrer">
                     NPO Japan Science Service (NSS) :
                   </a>
