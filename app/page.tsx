@@ -380,11 +380,13 @@ export default function HomePageEn() {
                   </a>
                   {" "}
                   participation in exhibitions and presentations at 
+                  {" "}
                   <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
                     Science Agora 2025
                   </a> (organized by JST), 
                   {" "}
                   support for the final judging session of 
+                  {" "}
                   <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
                     JSEC 2025
                   </a>.
