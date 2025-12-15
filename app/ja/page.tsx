@@ -181,7 +181,7 @@ export default function HomePageJa() {
               <h2 className="text-xl font-medium">今後の活動</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                <strong>2025年12月25日 </strong>
+                <strong>2025年12月25日： </strong>
                   早稲田大学モノづくりプログラム最終発表会
                 </li>
                 <li>
@@ -341,7 +341,7 @@ export default function HomePageJa() {
                   <a className="underline" href="https://nss.or.jp/" target="_blank" rel="noopener noreferrer">
                     NPO法人日本サイエンスサービス（NSS）
                   </a>
-                  スタッフとしての活動
+                  スタッフとしての活動：
                   {" "}
                   JST主催
                   <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">

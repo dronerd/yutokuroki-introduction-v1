@@ -194,7 +194,7 @@ export default function HomePageEn() {
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">            
                 <li>
-                <strong>2025 December 25th </strong>
+                <strong>2025 December 25th: </strong>
                   Waseda University Monodukuri Program Final Presentation
                 </li>
                 <li>
@@ -376,11 +376,15 @@ export default function HomePageEn() {
                 <li>
                   Activities as a staff member of the 
                   <a className="underline" href="https://nss.or.jp/" target="_blank" rel="noopener noreferrer">
-                    NPO Japan Science Service (NSS)
-                  </a>, including participation in exhibitions and presentations at 
+                    NPO Japan Science Service (NSS) :
+                  </a>
+                  {" "}
+                  participation in exhibitions and presentations at 
                   <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
                     Science Agora 2025
-                  </a> (organized by JST), and support for the final judging session of 
+                  </a> (organized by JST), 
+                  {" "}
+                  support for the final judging session of 
                   <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
                     JSEC 2025
                   </a>.
