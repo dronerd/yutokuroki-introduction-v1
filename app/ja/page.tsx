@@ -181,11 +181,8 @@ export default function HomePageJa() {
               <h2 className="text-xl font-medium">今後の活動</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  <strong>2025年12月14日：</strong>
-                  <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
-                    JSEC2025（高校生・高専生科学技術チャレンジ）
-                  </a>
-                  最終選考会のサポート
+                <strong>2025年12月25日 </strong>
+                  早稲田大学モノづくりプログラム最終発表会
                 </li>
                 <li>
                   <strong>2026年2月〜3月：</strong>
@@ -341,11 +338,21 @@ export default function HomePageJa() {
                   ゲーテ・インスティトゥート東京でのプレゼンテーション (&quot;Jugendkurs Deutsch plus Beruf&quot;, &quot;Der Wert des Deutschlernens, ein Rückblick&quot;)
                 </li>
                 <li>
-                  JST主催{" "}
-                  <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
-                    サイエンスアゴラ
+                  <a className="underline" href="https://nss.or.jp/" target="_blank" rel="noopener noreferrer">
+                    NPO法人日本サイエンスサービス（NSS）
                   </a>
-                  にてNPO法人NSSメンバーとしてドローン研究を発表（東京テレコムセンター）
+                  スタッフとしての活動
+                  {" "}
+                  JST主催
+                  <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
+                    サイエンスアゴラ2025
+                  </a>
+                  での展示・発表
+                  {" "}
+                  <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
+                    JSEC2025
+                  </a>
+                  最終審査会のサポート
                 </li>
                 <li>
                   早稲田大学政治経済学部のドイツ語スピーチコンテストにて特別ゲストスピーチ

@@ -193,15 +193,10 @@ export default function HomePageEn() {
                 <strong>Upcoming Activities</strong>
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">            
-
                 <li>
-                  <strong>Dec 14, 2025: </strong>
-                  Supporting the final round of{" "}
-                  <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
-                    JSEC2025(Japan Science and Engineering Challenge)
-                  </a>
+                <strong>2025 December 25th </strong>
+                  Waseda University Monodukuri Program Final Presentation
                 </li>
-
                 <li>
                   <strong>2026 February~ March: </strong>
                   Accepted for AI engineer internship at Rakuten AI for Business
@@ -379,11 +374,16 @@ export default function HomePageEn() {
                   Presentations at Goethe Institut Tokyo (&quot;Jugendkurs Deutsch plus Beruf&quot;, &quot;Der Wert des Deutschlernens, ein Rückblick&quot;)
                 </li>
                 <li>
-                  Presenting drone research as an NPO NSS member at{" "}
+                  Activities as a staff member of the 
+                  <a className="underline" href="https://nss.or.jp/" target="_blank" rel="noopener noreferrer">
+                    NPO Japan Science Service (NSS)
+                  </a>, including participation in exhibitions and presentations at 
                   <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
-                    Science Agora
-                  </a>{" "}
-                  by JST — Tokyo Telecom Center
+                    Science Agora 2025
+                  </a> (organized by JST), and support for the final judging session of 
+                  <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
+                    JSEC 2025
+                  </a>.
                 </li>
                 <li>
                   Special Guest Speech at the Waseda University School of Political Science and Economics German Speech Contest
