@@ -377,7 +377,7 @@ export default function HomePageEn() {
                   Activities as a staff member of the 
                    {" "}
                   <a className="underline" href="https://nss.or.jp/" target="_blank" rel="noopener noreferrer">
-                    NPO Japan Science Service (NSS) :
+                    NPO Nippon Science Service (NSS) :
                   </a>
                   {" "}
                   participation in exhibitions and presentations at 
