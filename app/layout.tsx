@@ -14,17 +14,27 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata: Metadata = {
-  title: "Yuto Kuroki",
+  title: "黒木勇人 | Yuto Kuroki",
   description:
-    "Profile page of Yuto Kuroki, Project Fluence Founder / Developer & Operator, Freshman at Waseda University School of Fundamental Sciences, ISEF Alumni",
+    "Profile page of Yuto Kuroki, Project Fluence Founder / Developer & Operator, Freshman at Waseda University School of Fundamental Sciences, ISEF Alumni |  黒木勇人のプロフィールページ：Project Fluence 創設者/開発者および運営者、早稲田大学基幹理工学部（情報系）、ISEF（国際学生科学技術フェア）出場経験者",
+
+  icons: {
+    icon: "/icon.png",        // ← app/icon.png (192x192)
+    apple: "/icon.png",       // iOS Safari 対応（任意だが推奨）
+  },
+
   keywords: [
+    "Yuto Kuroki",
+    "黒木勇人",
     "Project Fluence",
     "VocabStream",
-    "SpeakwiseGPT",
     "ISEF",
+    "国際学生科学技術フェア",
     "Note",
     "Waseda University",
+    "早稲田大学",
     "Software Engineering",
     "Language Skills",
     "Technical Skills",
@@ -33,11 +43,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Yuto Kuroki" }],
   openGraph: {
-    title: "Yuto Kuroki",
+    title: "黒木勇人 | Yuto Kuroki",
     description:
-      "Profile page of Yuto Kuroki, Project Fluence Founder / Developer & Operator, Freshman at Waseda University School of Fundamental Sciences, ISEF Alumni",
+     "Profile page of Yuto Kuroki, Project Fluence Founder / Developer & Operator, Freshman at Waseda University School of Fundamental Sciences, ISEF Alumni |  黒木勇人のプロフィールページ：Project Fluence 創設者/開発者および運営者、早稲田大学基幹理工学部（情報系）、ISEF（国際学生科学技術フェア）出場経験者",
     url: "https://yutokuroki.vercel.app",
-    siteName: "Yuto Kuroki",
+    siteName: "黒木勇人 | Yuto Kuroki",
     images: [
       {
         url: "https://yutokuroki.vercel.app/images/profile3.JPG",
@@ -57,6 +67,7 @@ export const metadata: Metadata = {
     images: ["https://yutokuroki.vercel.app/images/profile3.JPG"],
   },
 };
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   // Keep root layout as a server component; adding the font variables as classes
