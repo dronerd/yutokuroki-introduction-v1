@@ -198,6 +198,11 @@ export default function HomePageEn() {
                   Waseda University Monodukuri Program Final Presentation
                 </li>
                 <li>
+                <strong>2026 January ~ March: </strong>
+                  Selected for participation in GTIE Student Entrepreneurship Program Boston Bootcamp.
+                  March 3rd ~ 9th Planned visits to CIC (Cambridge Innovation Center), MIT, Harvard University, and networking with entrepreneurs in Boston.
+                </li>
+                <li>
                   <strong>2026 February~ March: </strong>
                   Accepted for AI engineer internship at Rakuten AI for Business
                 </li>

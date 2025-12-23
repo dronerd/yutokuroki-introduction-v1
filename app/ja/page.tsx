@@ -67,7 +67,7 @@ export default function HomePageJa() {
           </div>
         </div>
       </div>
-
+      
       <main id="top" className="w-full min-h-screen bg-neutral-100 px-4 sm:px-6 pt-4 pb-12">
         <div className="flex flex-col md:flex-row w-full relative">
           {/* LEFT COLUMN */}
@@ -183,6 +183,12 @@ export default function HomePageJa() {
                 <li>
                 <strong>2025年12月25日： </strong>
                   早稲田大学モノづくりプログラム最終発表会
+                </li>
+                <li>
+                  <strong>2026年1月〜3月：</strong>
+                  GTIE Student Entrepreneurship Program Boston Bootcamp に選抜され参加予定
+                  <br />
+                  3月3日〜9日 CIC（Cambridge Innovation Center）、MIT、ハーバード大学訪問予定およびボストンの起業家とのネットワーキング
                 </li>
                 <li>
                   <strong>2026年2月〜3月：</strong>
