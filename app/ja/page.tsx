@@ -186,9 +186,8 @@ export default function HomePageJa() {
                 </li>
                 <li>
                   <strong>2026年1月〜3月：</strong>
-                  GTIE Student Entrepreneurship Program Boston Bootcamp に選抜され参加予定
-                  <br />
-                  3月3日〜9日 CIC（Cambridge Innovation Center）、MIT、ハーバード大学訪問予定およびボストンの起業家とのネットワーキング
+                  GTIE Student Entrepreneurship Program Boston Bootcamp に選抜され参加予定。
+                  3月3日〜9日に CIC（Cambridge Innovation Center）、MIT、ハーバード大学訪問予定およびボストンの起業家とのネットワーキング
                 </li>
                 <li>
                   <strong>2026年2月〜3月：</strong>
