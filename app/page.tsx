@@ -300,7 +300,7 @@ export default function HomePageEn() {
                 </li>
 
                 <li>Kato Yamazaki Scholarship Honor Recipient (with Special Commendation)</li>
-                <li>Tokyo Metropolitan Government Outstanding Cultural Activities Award</li>
+                <li>Tokyo Metropolitan High School Cultural Federation Outstanding Cultural Activities Award</li>
                 <li>Waseda University Senior High School Academic Excellence Award (1st among 485 students)</li>
               </ul>
             </section>
