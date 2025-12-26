@@ -165,12 +165,11 @@ export default function HomePageEn() {
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  React + FastAPI — Development of Project Fluence — English learning app{" "}
+                  React + FastAPI + OpenAI API — Development of Project Fluence — English learning app{" "}
                   <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
                     <strong>VocabStream</strong>
                   </a>
                 </li>
-                <li>Raspberry Pi（Python） — Facial Recognition System （WASEDAものづくりProgram）</li>
               </ul>
 
               <h2 className="mt-6 text-xl font-medium">
@@ -193,10 +192,6 @@ export default function HomePageEn() {
                 <strong>Upcoming Activities</strong>
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">            
-                <li>
-                <strong>2025 December 25th: </strong>
-                  Waseda University Monodukuri Program Final Presentation
-                </li>
                 <li>
                 <strong>2026 January ~ March: </strong>
                   Selected for participation in GTIE Student Entrepreneurship Program Boston Bootcamp.

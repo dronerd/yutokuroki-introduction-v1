@@ -155,13 +155,12 @@ export default function HomePageJa() {
               <h2 className="mt-6 text-xl font-medium">進行中のプロジェクト</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  React + FastAPI — Project Fluenceの英語学習アプリ{" "}
+                  React + FastAPI + OpenAI API — Project Fluenceの英語学習アプリ{" "}
                   <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
                     <strong>VocabStream</strong>
                   </a>
                   の開発
                 </li>
-                <li>Raspberry Pi（Python） — 顔認識システム（WASEDAものづくりプログラム）</li>
               </ul>
 
               <h2 className="mt-6 text-xl font-medium">公開中のアプリ</h2>
@@ -180,10 +179,6 @@ export default function HomePageJa() {
             <section className="mt-6">
               <h2 className="text-xl font-medium">今後の活動</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
-                <li>
-                <strong>2025年12月25日： </strong>
-                  早稲田大学モノづくりプログラム最終発表会
-                </li>
                 <li>
                   <strong>2026年1月〜3月：</strong>
                   GTIE Student Entrepreneurship Program Boston Bootcamp に選抜され参加予定。
