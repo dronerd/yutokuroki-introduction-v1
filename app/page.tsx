@@ -228,6 +228,11 @@ export default function HomePageEn() {
                       世界最難関の英語検定試験：ケンブリッジ英検C2 Proficiency（CPE）に合格しました！（リーディング・リスニング満点）
                     </a>
                 </li>  
+                <li key ="Note Article5" className="py-0.5">
+                    <a href="https://note.com/projectfluence/n/n71bd9003af29" className="underline" target="_blank" rel="noopener noreferrer">
+                    （上級者向け）日本にいながら英語力をさらに高める効果的な方法
+                    </a>
+                </li>
               </ul>
             </section>
 
