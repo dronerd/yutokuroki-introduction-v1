@@ -106,7 +106,7 @@ export default function HomePageEn() {
                   Freshman CS student at Waseda University School of Fundamental Science and Engineering
                 </strong>
                 <span className="block mt-1">
-                  I have a strong interest in software engineering, machine learning, and cross-cultural communication. I combine technical research with international experience to bridge innovation and global collaboration.
+                  I have a strong interest in AI reserach and development, software engineering, and cross-cultural communication. I aim to combine technical research with international experience to bridge innovation and global collaboration.
                 </span>
               </p>
 
@@ -168,10 +168,11 @@ export default function HomePageEn() {
                   Working at Rakuten as an AI Engineer Intern 
                 </li>
                 <li>
-                  Supporting {""} finalists from Japan as NSS staff member 
+                  Supporting {" "} 
                   <a className="underline" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">
                     <strong>ISEF2026</strong>
                   </a>
+                  {" "} finalists from Japan as NSS staff member 
                 </li>
                 <li>
                   React + FastAPI + OpenAI API — Development of Project Fluence — English learning app{" "}

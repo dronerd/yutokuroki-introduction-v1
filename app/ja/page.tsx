@@ -158,10 +158,11 @@ export default function HomePageJa() {
                   楽天でのAIエンジニアインターンシップ
                 </li>
                 <li>
-                  NSSスタッフとして{""}日本代表のサポート活動
+                  NSSスタッフとして{" "}
                   <a className="underline" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">
                     <strong>ISEF2026</strong>
                   </a>
+                  日本代表のサポート
                 </li>
                 <li>
                   React + FastAPI + OpenAI API — Project Fluenceの英語学習アプリ{" "}
@@ -298,7 +299,7 @@ export default function HomePageJa() {
                   <li>最適化・機械学習: TSP, クラスタリング</li>
                 </ul>
               </div>
-
+              
               <div>
                 <h2 className="text-xl font-medium">語学スキル</h2>
                 <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
