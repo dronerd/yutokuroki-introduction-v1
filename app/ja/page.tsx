@@ -102,7 +102,7 @@ export default function HomePageJa() {
               <p className="text-sm sm:text-base leading-relaxed px-2 md:px-0">
                 <strong className="block">早稲田大学基幹理工学部1年(情報系)</strong>
                 <span className="block mt-1">
-                  ソフトウェア開発、機械学習、異文化コミュニケーションに強い関心を持つ。技術研究と国際経験の融合を目指す。
+                  AI研究、ソフトウェア開発、異文化コミュニケーションに強い関心を持つ。技術研究と国際経験の融合を目指す。
                 </span>
               </p>
 
@@ -152,8 +152,17 @@ export default function HomePageJa() {
                 を立ち上げ、開発・運営を個人で行っています。Noteでの解説や個人開発する英語アプリ提供を通じて支援していきます。
               </p>
 
-              <h2 className="mt-6 text-xl font-medium">進行中のプロジェクト</h2>
+              <h2 className="mt-6 text-xl font-medium">現在の活動</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>
+                  楽天でのAIエンジニアインターンシップ
+                </li>
+                <li>
+                  NSSスタッフとして{""}日本代表のサポート活動
+                  <a className="underline" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">
+                    <strong>ISEF2026</strong>
+                  </a>
+                </li>
                 <li>
                   React + FastAPI + OpenAI API — Project Fluenceの英語学習アプリ{" "}
                   <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
@@ -182,11 +191,7 @@ export default function HomePageJa() {
                 <li>
                   <strong>2026年1月〜3月：</strong>
                   GTIE Student Entrepreneurship Program Boston Bootcamp に選抜され参加予定。
-                  3月3日〜9日に CIC（Cambridge Innovation Center）、MIT、ハーバード大学訪問予定およびボストンの起業家とのネットワーキング
-                </li>
-                <li>
-                  <strong>2026年2月〜3月：</strong>
-                  Rakuten AI for BusinessでのAIエンジニアインターンシップ予定
+                  3月3日〜6日に CIC（Cambridge Innovation Center）、MIT、ハーバード大学訪問予定およびボストンの起業家とのネットワーキング
                 </li>
               </ul>
 

@@ -161,9 +161,18 @@ export default function HomePageEn() {
 
               {/* Latest activities */}
               <h2 className="mt-6 text-xl font-medium">
-                <strong>Ongoing Projects</strong>
+                <strong>Ongoing Activities</strong>
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>
+                  Working at Rakuten as an AI Engineer Intern 
+                </li>
+                <li>
+                  Supporting {""} finalists from Japan as NSS staff member 
+                  <a className="underline" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">
+                    <strong>ISEF2026</strong>
+                  </a>
+                </li>
                 <li>
                   React + FastAPI + OpenAI API — Development of Project Fluence — English learning app{" "}
                   <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
@@ -195,11 +204,7 @@ export default function HomePageEn() {
                 <li>
                 <strong>2026 January ~ March: </strong>
                   Selected for participation in GTIE Student Entrepreneurship Program Boston Bootcamp.
-                  March 3rd ~ 9th Planned visits to CIC (Cambridge Innovation Center), MIT, Harvard University, and networking with entrepreneurs in Boston.
-                </li>
-                <li>
-                  <strong>2026 February~ March: </strong>
-                  Accepted for AI engineer internship at Rakuten AI for Business
+                  March 3rd ~ 6th Planned visits to CIC (Cambridge Innovation Center), MIT, Harvard University, and networking with entrepreneurs in Boston.
                 </li>
               </ul>
 
