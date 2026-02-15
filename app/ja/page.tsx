@@ -79,7 +79,7 @@ export default function HomePageJa() {
 
               <h1 className="text-2xl sm:text-3xl font-semibold">黒木 勇人</h1>
               <p className="text-base sm:text-lg mt-1">
-                AI研究・開発 ｜ ISEF出場経験者
+                AI研究開発 ｜ ISEF出場経験者
               </p>
 
 
@@ -163,7 +163,11 @@ export default function HomePageJa() {
                   <strong>VocabStream</strong>
                 </a>
               </p>
+              <Link href="https://vocabstream.vercel.app" target="_blank" className="inline-block ml-2">
+                <Image src="/VocabStream.png" alt="VocabStream preview" width={84} height={84} className="rounded-md object-cover" />
+              </Link>
 
+              {/* Latest activities */}
               <h2 className="mt-6 text-xl font-medium">現在の活動</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
