@@ -6,11 +6,11 @@ import LanguageToggle from "../components/LanguageToggle"; // client component
 export const metadata = {
   title: "黒木 勇人",
   description:
-    "黒木勇人のプロフィールページ：Project Fluence 創設者/開発者および運営者、早稲田大学基幹理工学部（情報系）、ISEF（国際学生科学技術フェア）出場経験者",
+    "黒木勇人のプロフィールページ：早稲田大学基幹理工学部、ISEF出場経験者、AI研究開発",
   openGraph: {
     title: "黒木 勇人",
     description:
-      "黒木勇人のプロフィールページ：Project Fluence 創設者/開発者および運営者、早稲田大学基幹理工学部（情報系）、ISEF（国際科学科学技術フェア）出場経験者",
+      "黒木勇人のプロフィールページ：早稲田大学基幹理工学部、ISEF出場経験者、AI研究開発",
     url: "https://yutokuroki.vercel.app/ja",
     images: [{ url: "https://yutokuroki.vercel.app/images/profile3.JPG", width: 1200, height: 630 }],
     locale: "ja_JP",
@@ -79,12 +79,9 @@ export default function HomePageJa() {
 
               <h1 className="text-2xl sm:text-3xl font-semibold">黒木 勇人</h1>
               <p className="text-base sm:text-lg mt-1">
-                <Link aria-label="Project Fluence" href="https://projectfluence.vercel.app" className="underline" target="_blank">
-                  <strong>Project Fluence</strong>
-                </Link>
-                <br />
-                創設者 / 開発・運営
+                AI研究・開発 ｜ ISEF出場経験者
               </p>
+
 
               {/* Profile image */}
               <div className="flex-shrink-0 h-28 w-28 sm:h-36 sm:w-36 rounded-full overflow-hidden bg-neutral-200 mx-auto md:mx-0">
@@ -100,9 +97,9 @@ export default function HomePageJa() {
               </div>
 
               <p className="text-sm sm:text-base leading-relaxed px-2 md:px-0">
-                <strong className="block">早稲田大学基幹理工学部1年(情報系)</strong>
+                <strong className="block">早稲田大学基幹理工学部1年</strong>
                 <span className="block mt-1">
-                  AI研究、ソフトウェア開発、異文化コミュニケーションに強い関心を持つ。技術研究と国際経験の融合を目指す。
+                  機械学習、LLM、Agentic AI、ヘルスケア分野へのAI応用に関心があります。
                 </span>
               </p>
 
@@ -131,10 +128,15 @@ export default function HomePageJa() {
             <section>
               <h2 className="text-xl font-medium">自己紹介</h2>
               <p className="mt-3 leading-7 text-neutral-800 text-sm sm:text-base">
-                <strong>国際科学コンテスト、ソフトウェア開発、プレゼンテーション、国際交流プログラム</strong>などで経験を積んできました。
-                <strong>ISEF</strong>やJugendkurs Deutsch plus Berufなどの国際イベントに日本代表として参加し、技術力と国際的なコミュニケーション能力を培いました。
+                <strong>国際科学コンテスト、ソフトウェア開発、異文化交流</strong>
+                を経験してきました。
+                日本代表として<strong>ISEF2025</strong>に出場し、現在は
+                <strong>機械学習</strong>、<strong>大規模言語モデル（LLM）</strong>、
+                <strong>Agentic AI</strong>、<strong>医療分野へのAI応用</strong>
+                に強い関心を持っています。
+                テクノロジーによって世界の課題を解決することに情熱を持ち、
+                国際的な交流活動にも積極的に取り組んでいます。
               </p>
-
               <br />
 
               <h2 className="text-xl font-medium flex items-center gap-2">
@@ -145,17 +147,28 @@ export default function HomePageJa() {
               </h2>
 
               <p className="mt-3 leading-7 text-neutral-800 text-sm sm:text-base">
-                英語と専門分野の力で夢を実現する人を増やすことを目指し、
+                英語力とそれぞれの専門性を活かし、日本から世界へ挑戦する人を増やすために
                 <Link aria-label="Project Fluence" href="https://projectfluence.vercel.app" className="underline" target="_blank">
                   <strong>Project Fluence</strong>
                 </Link>
-                を立ち上げ、開発・運営を個人で行っています。Noteでの解説や個人開発する英語アプリ提供を通じて支援していきます。
+                を設立しました。
+                AIを活用した英語学習アプリの個人開発や、Noteでの記事執筆を行っています。
+                ぜひご覧ください!
+              </p>
+
+              <h2 className="mt-6 text-xl font-medium">公開中のアプリ</h2>
+              <p className="mt-2 text-neutral-900 text-sm sm:text-base">
+                英単語学習アプリ{" "}
+                <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
+                  <strong>VocabStream</strong>
+                </a>
               </p>
 
               <h2 className="mt-6 text-xl font-medium">現在の活動</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  楽天でのAIエンジニアインターンシップ
+                  楽天にて <strong>データサイエンティスト</strong> インターン
+                  ー Agentic AI システムの研究開発
                 </li>
                 <li>
                   NSSスタッフとして{" "}
@@ -165,24 +178,9 @@ export default function HomePageJa() {
                   日本代表のサポート
                 </li>
                 <li>
-                  React + FastAPI + OpenAI API — Project Fluenceの英語学習アプリ{" "}
-                  <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
-                    <strong>VocabStream</strong>
-                  </a>
-                  の開発
+                  React + FastAPI + OpenAI API — Project Fluence の英語学習アプリ開発
                 </li>
               </ul>
-
-              <h2 className="mt-6 text-xl font-medium">公開中のアプリ</h2>
-              <p className="mt-2 text-neutral-900 text-sm sm:text-base">
-                英単語学習アプリ{" "}
-                <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
-                  <strong>VocabStream</strong>
-                </a>
-              </p>
-              <Link href="https://vocabstream.vercel.app" target="_blank" className="inline-block ml-2">
-                <Image src="/VocabStream.png" alt="VocabStream プレビュー" width={84} height={84} className="rounded-md object-cover" />
-              </Link>
             </section>
 
             {/* Upcoming Activities */}
@@ -231,9 +229,7 @@ export default function HomePageJa() {
             <section className="mt-6">
               <h2 className="text-xl font-medium">早稲田大学での成績 (GPA)</h2>
               <p className="mt-2 text-base text-sm sm:text-base">
-                US スケール (Unweighted, A・A+ = 4.0): <strong>4.0</strong> / 4.0
-                <br />
-                US スケール (Weighted, A+ = 4.3): <strong>4.27</strong> / 4.0
+                USスケール (A・A+ = 4.0): <strong>4.0</strong> / 4.0
                 <br />
                 早稲田大学のスケール (A = 3, A+ = 4): <strong>3.89</strong> / 4.0
               </p>
@@ -293,10 +289,10 @@ export default function HomePageJa() {
               <div>
                 <h2 className="text-xl font-medium">技術スキル</h2>
                 <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
-                  <li>Web・アプリ: React, FastAPI, Next.js (本ページはReact + Next.jsで作成)</li>
                   <li>プログラミング: Python, C++, TypeScript</li>
-                  <li>ハードウェア・ロボ: ドローン制御, Raspberry Pi, Arduino, CAD</li>
-                  <li>最適化・機械学習: TSP, クラスタリング</li>
+                  <li>AI・ML: 最適化、LLMアプリケーション開発、Agentic AI開発</li>
+                  <li>Web・アプリ: React, FastAPI, Next.js（本ページは React + Next.js で作成）</li>
+                  <li>ハードウェア・ロボティクス: ドローンプログラミング、Raspberry Pi、Arduino</li>
                 </ul>
               </div>
               
@@ -306,7 +302,7 @@ export default function HomePageJa() {
                   <li>
                     英語 — TOEFL iBT 116/120, TOEIC 990/990,
                     <br />
-                    英検1級 (中学2年で上位1%合格),
+                    英検1級 (14歳で上位1%合格),
                     <br />
                     SAT 1530/1600
                     <br />
@@ -363,7 +359,8 @@ export default function HomePageJa() {
                   <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
                     JSEC2025
                   </a>
-                  最終審査会のサポート
+                  最終審査会のサポート、
+                  ISEF2026日本代表の支援
                 </li>
                 <li>
                   早稲田大学政治経済学部のドイツ語スピーチコンテストにて特別ゲストスピーチ
