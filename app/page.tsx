@@ -102,7 +102,7 @@ export default function HomePageEn() {
                   Freshman CS student at Waseda University School of Fundamental Science and Engineering
                 </strong>
                 <span className="block mt-1">
-                  Worked on AI reserach since high school, representing Japan in ISEF 2025. Interested in ML, LLMs, Agentic AI, and AI for Healthcare. Actively involved in cross-cultural communication. 
+                  Interested in ML, LLMs, Agentic AI, and AI for Healthcare.  
                 </span>
               </p>
 
@@ -134,9 +134,9 @@ export default function HomePageEn() {
               </h2>
               <p className="mt-3 leading-7 text-neutral-800 text-sm sm:text-base">
                 My experiences span <strong>international science competitions, software development, public speaking, and cross-cultural programs. </strong>
-                I have represented Japan at global events such as <strong>ISEF</strong> and currently have a strong interest in <strong>AI research and development</strong>, particularly in the areas of machine learning, large language models, Agentic AI, and their applications in healthcare. I am passionate about leveraging technology to solve real-world problems and am actively involved in cross cultural exchange.
+                I have represented Japan at <strong>ISEF</strong> and currently have a strong interest in <strong>machine learning</strong>, <strong>large language models</strong>, <strong>Agentic AI</strong>, and <strong>AI for healthcare</strong>. I am passionate about leveraging technology to solve real-world problems and am actively involved in cross cultural exchange.
               </p>
-              <br />
+              <br/>
 
               <h2 className="text-xl font-medium flex items-center gap-2">
                 <strong>Project Fluence</strong>
@@ -151,9 +151,8 @@ export default function HomePageEn() {
                 <Link aria-label="Project Fluence" href="https://projectfluence.vercel.app" className="underline" target="_blank">
                   <strong>Project Fluence</strong>
                 </Link>{" "}
-                to help more people in Japan achieve their dreams through English skills and their areas of expertise. I personally create English learning apps utilizing AI, and write Note articles. Feel free to check them out!
+                to help more people in Japan achieve their dreams through English skills and their areas of expertise. I personally create English learning apps utilizing AI and write Note articles. Feel free to check them out!
               </p>
-
 
               <h2 className="mt-6 text-xl font-medium">
                 <strong>Latest Apps</strong>
@@ -174,7 +173,7 @@ export default function HomePageEn() {
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  Working at <strong> Rakuten </strong> as a <strong>Data Scientist</strong> Intern 
+                  Working at <strong> Rakuten </strong> as a <strong>Data Scientist</strong> Intern, in the field of Agentic AI systems. 
                 </li>
                 <li>
                   Supporting {" "} 
@@ -314,10 +313,10 @@ export default function HomePageEn() {
                   <strong>Technical Skills</strong>
                 </h2>
                 <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
-                  <li>Web &amp; App: React, FastAPI, Next.js (This page was created with React + Next.js)</li>
                   <li>Programming: Python, C++, TypeScript</li>
-                  <li>Hardware &amp; Robotics: Drone programming, Raspberry Pi, Arduino, CAD</li>
-                  <li>Optimization・ML: TSP, clustering</li>
+                  <li>AI・ML: Optimization, LLM application development, Agentic AI development</li>
+                  <li>Web &amp; App: React, FastAPI, Next.js (This page was created with React + Next.js)</li>
+                  <li>Hardware &amp; Robotics: Drone programming, Raspberry Pi, Arduino</li>
                 </ul>
               </div>
 
@@ -382,17 +381,18 @@ export default function HomePageEn() {
                     NPO Nippon Science Service (NSS) :
                   </a>
                   {" "}
-                  participation in exhibitions and presentations at 
+                   participation in exhibitions at 
                   {" "}
                   <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
                     Science Agora 2025
-                  </a> (organized by JST), 
+                  </a>, 
                   {" "}
-                  support for the final judging session of 
+                    support for the final judging session of 
                   {" "}
                   <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
                     JSEC 2025
-                  </a>.
+                  </a>, 
+                    and support of ISEF 2026 finalists from Japan
                 </li>
                 <li>
                   Special Guest Speech at the Waseda University School of Political Science and Economics German Speech Contest
@@ -444,7 +444,7 @@ export default function HomePageEn() {
                 <strong>Other Skills &amp; Hobbies</strong>
               </h2>
               <p className="mt-3 text-neutral-800 text-sm sm:text-base">
-                Public speaking, language teaching, event organization, tennis, solving complex Rubik&apos;s cubes, juggling, cooking, jump rope
+                Public speaking, language teaching, event organization, solving complex Rubik&apos;s cubes, juggling, cooking, jump rope
               </p>
             </section>
 
