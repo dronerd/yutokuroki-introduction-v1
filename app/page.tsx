@@ -6,11 +6,11 @@ import LanguageToggle from "./components/LanguageToggle"; // client component
 export const metadata = {
   title: "Yuto Kuroki",
   description:
-    "Profile page of Yuto Kuroki, Project Fluence Founder / Developer & Operator, CS Student at Waseda University School of Fundamental Sciences, ISEF Alumni",
+    "Profile page of Yuto Kuroki, CS Student at Waseda University School of Fundamental Sciences, ISEF Alumni",
   openGraph: {
     title: "Yuto Kuroki",
     description:
-      "Profile page of Yuto Kuroki, Project Fluence Founder / Developer & Operator, CS student at Waseda University School of Fundamental Sciences, ISEF Alumni",
+      "Profile page of Yuto Kuroki, CS student at Waseda University School of Fundamental Sciences, ISEF Alumni",
     url: "https://yutokuroki.vercel.app",
     images: [{ url: "https://yutokuroki.vercel.app/images/profile3.JPG", width: 1200, height: 630 }],
     locale: "en_US",
@@ -81,11 +81,7 @@ export default function HomePageEn() {
 
               <h1 className="text-2xl sm:text-3xl font-semibold">Yuto Kuroki</h1>
               <p className="text-base sm:text-lg mt-1">
-                <Link aria-label="Project Fluence" href="https://projectfluence.vercel.app" className="underline" target="_blank">
-                  <strong>Project Fluence</strong>
-                </Link>
-                <br />
-                Founder / Developer &amp; Operator
+                AI reserach & development | ISEF alumni  
               </p>
 
               {/* Profile image — fixed-size */}
@@ -106,7 +102,7 @@ export default function HomePageEn() {
                   Freshman CS student at Waseda University School of Fundamental Science and Engineering
                 </strong>
                 <span className="block mt-1">
-                  I have a strong interest in AI reserach and development, software engineering, and cross-cultural communication. I aim to combine technical research with international experience to bridge innovation and global collaboration.
+                  Worked on AI reserach since high school, representing Japan in ISEF 2025. Interested in ML, LLMs, Agentic AI, and AI for Healthcare. Actively involved in cross-cultural communication. 
                 </span>
               </p>
 
@@ -138,9 +134,8 @@ export default function HomePageEn() {
               </h2>
               <p className="mt-3 leading-7 text-neutral-800 text-sm sm:text-base">
                 My experiences span <strong>international science competitions, software development, public speaking, and cross-cultural programs. </strong>
-                I have represented Japan at global events such as <strong>ISEF</strong> and Jugendkurs Deutsch plus Beruf, merging technical expertise with international communication skills.
+                I have represented Japan at global events such as <strong>ISEF</strong> and currently have a strong interest in <strong>AI research and development</strong>, particularly in the areas of machine learning, large language models, Agentic AI, and their applications in healthcare. I am passionate about leveraging technology to solve real-world problems and am actively involved in cross cultural exchange.
               </p>
-
               <br />
 
               <h2 className="text-xl font-medium flex items-center gap-2">
@@ -156,31 +151,9 @@ export default function HomePageEn() {
                 <Link aria-label="Project Fluence" href="https://projectfluence.vercel.app" className="underline" target="_blank">
                   <strong>Project Fluence</strong>
                 </Link>{" "}
-                to help more people in Japan achieve their dreams through English skills and their areas of expertise. I personally handle its development and operations.
+                to help more people in Japan achieve their dreams through English skills and their areas of expertise. I personally create English learning apps utilizing AI, and write Note articles. Feel free to check them out!
               </p>
 
-              {/* Latest activities */}
-              <h2 className="mt-6 text-xl font-medium">
-                <strong>Ongoing Activities</strong>
-              </h2>
-              <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
-                <li>
-                  Working at Rakuten as an AI Engineer Intern 
-                </li>
-                <li>
-                  Supporting {" "} 
-                  <a className="underline" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">
-                    <strong>ISEF2026</strong>
-                  </a>
-                  {" "} finalists from Japan as NSS staff member 
-                </li>
-                <li>
-                  React + FastAPI + OpenAI API — Development of Project Fluence — English learning app{" "}
-                  <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
-                    <strong>VocabStream</strong>
-                  </a>
-                </li>
-              </ul>
 
               <h2 className="mt-6 text-xl font-medium">
                 <strong>Latest Apps</strong>
@@ -194,6 +167,26 @@ export default function HomePageEn() {
               <Link href="https://vocabstream.vercel.app" target="_blank" className="inline-block ml-2">
                 <Image src="/VocabStream.png" alt="VocabStream preview" width={84} height={84} className="rounded-md object-cover" />
               </Link>
+
+              {/* Latest activities */}
+              <h2 className="mt-6 text-xl font-medium">
+                <strong>Ongoing Activities</strong>
+              </h2>
+              <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>
+                  Working at <strong> Rakuten </strong> as a <strong>Data Scientist</strong> Intern 
+                </li>
+                <li>
+                  Supporting {" "} 
+                  <a className="underline" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">
+                    <strong>ISEF2026</strong>
+                  </a>
+                  {" "} finalists from Japan as NSS staff member 
+                </li>
+                <li>
+                  React + FastAPI + OpenAI API — Development of English learning apps for Project Fluence{" "}
+                </li>
+              </ul>
             </section>
 
             {/* Upcoming Activities & Articles */}
@@ -204,8 +197,8 @@ export default function HomePageEn() {
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">            
                 <li>
                 <strong>2026 January ~ March: </strong>
-                  Selected for participation in GTIE Student Entrepreneurship Program Boston Bootcamp.
-                  March 3rd ~ 6th Planned visits to CIC (Cambridge Innovation Center), MIT, Harvard University, and networking with entrepreneurs in Boston.
+                  Selected for participation in GTIE Student Entrepreneurship Program at Boston.
+                  March 3rd ~ 6th Planned visits to CIC (Cambridge Innovation Center), MIT, Harvard University, and networking in Boston.
                 </li>
               </ul>
 
@@ -248,9 +241,7 @@ export default function HomePageEn() {
                 <strong>GPA at Waseda University</strong>
               </h2>
               <p className="mt-2 text-base text-sm sm:text-base">
-                US Scale (Unweighted A・A+ =4.0): <strong>4.0 </strong>/ 4.0
-                <br />
-                US Scale (Weighted, A+=4.3): <strong>4.27 </strong>/ 4.0
+                US Scale (A・A+ =4.0): <strong>4.0 </strong>/ 4.0
                 <br />
                 Waseda University Scale (A=3, A+=4): <strong>3.89 </strong>/ 4.0
               </p>
