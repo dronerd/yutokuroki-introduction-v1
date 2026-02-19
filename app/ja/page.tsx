@@ -6,11 +6,11 @@ import LanguageToggle from "../components/LanguageToggle"; // client component
 export const metadata = {
   title: "黒木 勇人",
   description:
-    "黒木勇人のプロフィールページ：早稲田大学基幹理工学部、ISEF出場経験者、AI研究開発",
+    "黒木勇人のプロフィールページ：早稲田大学基幹理工学部、ISEF2025日本代表、AI研究開発",
   openGraph: {
     title: "黒木 勇人",
     description:
-      "黒木勇人のプロフィールページ：早稲田大学基幹理工学部、ISEF出場経験者、AI研究開発",
+      "黒木勇人のプロフィールページ：早稲田大学基幹理工学部、ISEF2025日本代表、AI研究開発",
     url: "https://yutokuroki.vercel.app/ja",
     images: [{ url: "https://yutokuroki.vercel.app/images/profile3.JPG", width: 1200, height: 630 }],
     locale: "ja_JP",
@@ -79,7 +79,7 @@ export default function HomePageJa() {
 
               <h1 className="text-2xl sm:text-3xl font-semibold">黒木 勇人</h1>
               <p className="text-base sm:text-lg mt-1">
-                AI研究開発 ｜ ISEF出場経験者
+                AI研究開発 ｜ ISEF2025日本代表
               </p>
 
 
