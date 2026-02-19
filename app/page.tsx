@@ -6,11 +6,11 @@ import LanguageToggle from "./components/LanguageToggle"; // client component
 export const metadata = {
   title: "Yuto Kuroki",
   description:
-    "Profile page of Yuto Kuroki, CS Student at Waseda University School of Fundamental Sciences, ISEF Alumni",
+    "Profile page of Yuto Kuroki, CS Student at Waseda University School of Fundamental Sciences, ISEF2025 Finalist",
   openGraph: {
     title: "Yuto Kuroki",
     description:
-      "Profile page of Yuto Kuroki, CS student at Waseda University School of Fundamental Sciences, ISEF Alumni",
+      "Profile page of Yuto Kuroki, CS student at Waseda University School of Fundamental Sciences, ISEF2025 Finalist",
     url: "https://yutokuroki.vercel.app",
     images: [{ url: "https://yutokuroki.vercel.app/images/profile3.JPG", width: 1200, height: 630 }],
     locale: "en_US",
@@ -81,7 +81,7 @@ export default function HomePageEn() {
 
               <h1 className="text-2xl sm:text-3xl font-semibold">Yuto Kuroki</h1>
               <p className="text-base sm:text-lg mt-1">
-                AI reserach & development | ISEF alumni  
+                AI reserach & development | ISEF 2025 Finalist
               </p>
 
               {/* Profile image — fixed-size */}
