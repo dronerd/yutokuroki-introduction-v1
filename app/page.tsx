@@ -235,15 +235,25 @@ export default function HomePageEn() {
             </section>
 
              {/* Academic Records */}
+            {/* Academic Records */}
             <section className="mt-6">
               <h2 className="text-xl font-medium">
-                <strong>GPA at Waseda University</strong>
+                <strong>Academic Records</strong>
               </h2>
-              <p className="mt-2 text-base text-sm sm:text-base">
-                US Scale (A・A+ =4.0): <strong>4.0 </strong>/ 4.0
-                <br />
-                Waseda University Scale (A=3, A+=4): <strong>3.89 </strong>/ 4.0
-              </p>
+              <div className="mt-2 text-base text-sm sm:text-base">
+                <h3 className="font-semibold">GPA (US Scale, A/A+ = 4.0)</h3>
+                <p className="mt-1">
+                  Semester 1: <strong>4.00</strong> / 4.00<br />
+                  Semester 2: <strong>4.00</strong> / 4.00<br />
+                  Cumulative: <strong>4.00</strong> / 4.00
+                </p>
+                <h3 className="mt-4 font-semibold">GPA (Waseda Scale, A = 3, A+ = 4)</h3>
+                <p className="mt-1">
+                  Semester 1: <strong>3.89</strong> / 4.00<br />
+                  Semester 2: <strong>3.97</strong> / 4.00<br />
+                  Cumulative: <strong>3.94</strong> / 4.00
+                </p>
+              </div>
             </section>
 
             {/* Research & Awards */}
