@@ -231,12 +231,23 @@ export default function HomePageJa() {
 
             {/* Academic Records */}
             <section className="mt-6">
-              <h2 className="text-xl font-medium">早稲田大学での成績 (GPA)</h2>
-              <p className="mt-2 text-base text-sm sm:text-base">
-                USスケール (A・A+ = 4.0): <strong>4.0</strong> / 4.0
-                <br />
-                早稲田大学のスケール (A = 3, A+ = 4): <strong>3.89</strong> / 4.0
-              </p>
+              <h2 className="text-xl font-medium">
+                <strong>大学の成績</strong>
+              </h2>
+              <div className="mt-2 text-base text-sm sm:text-base">
+                <h3 className="font-semibold">GPA (USスケール, A/A+ = 4.0)</h3>
+                <p className="mt-1">
+                  第1セメスター: <strong>4.00</strong> / 4.00<br />
+                  第2セメスター: <strong>4.00</strong> / 4.00<br />
+                  累積GPA: <strong>4.00</strong> / 4.00
+                </p>
+                <h3 className="mt-4 font-semibold">GPA (早稲田大学スケール, A = 3, A+ = 4)</h3>
+                <p className="mt-1">
+                  第1セメスター: <strong>3.89</strong> / 4.00<br />
+                  第2セメスター: <strong>3.97</strong> / 4.00<br />
+                  累積GPA: <strong>3.94</strong> / 4.00
+                </p>
+              </div>
             </section>
 
             {/* Research & Awards */}
