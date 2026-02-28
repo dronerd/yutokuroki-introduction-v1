@@ -129,7 +129,7 @@ export default function HomePageEn() {
           {/* RIGHT COLUMN */}
           <section className="w-full md:w-3/4 md:ml-8 p-4 md:p-6 mt-6 md:mt-0">
             <section>
-              <h2 className="text-xl font-medium">
+              <h2 className="text-xl font-bold">
                 <strong>About Me</strong>
               </h2>
               <p className="mt-3 leading-7 text-neutral-800 text-sm sm:text-base">
@@ -138,7 +138,7 @@ export default function HomePageEn() {
               </p>
               <br/>
 
-              <h2 className="text-xl font-medium flex items-center gap-2">
+              <h2 className="text-xl font-bold flex items-center gap-2">
                 <strong>Project Fluence</strong>
 
                 <Link href="https://projectfluence.vercel.app" aria-label="Project Fluence" target="_blank" className="ml-2">
@@ -154,7 +154,7 @@ export default function HomePageEn() {
                 to help more people in Japan achieve their dreams through English skills and their areas of expertise. I personally create English learning apps utilizing AI and write Note articles. Feel free to check them out!
               </p>
 
-              <h2 className="mt-6 text-xl font-medium">
+              <h2 className="mt-6 text-xl font-bold">
                 <strong>Latest Apps</strong>
               </h2>
               <p className="mt-2 text-neutral-900 text-sm sm:text-base">
@@ -168,7 +168,7 @@ export default function HomePageEn() {
               </Link>
 
               {/* Latest activities */}
-              <h2 className="mt-6 text-xl font-medium">
+              <h2 className="mt-6 text-xl font-bold">
                 <strong>Ongoing Activities</strong>
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
@@ -190,7 +190,7 @@ export default function HomePageEn() {
 
             {/* Upcoming Activities & Articles */}
             <section className="mt-6">
-              <h2 className="text-xl font-medium">
+              <h2 className="text-xl font-bold">
                 <strong>Upcoming Activities</strong>
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">            
@@ -202,7 +202,7 @@ export default function HomePageEn() {
               </ul>
 
             {/* Latest Note articles */}
-              <h2 className="mt-6 text-xl font-medium">
+              <h2 className="mt-6 text-xl font-bold">
                 <strong>Latest Note Articles</strong>
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
@@ -237,7 +237,7 @@ export default function HomePageEn() {
              
             {/* Academic Records */}
             <section className="mt-6">
-              <h2 className="text-xl font-medium">
+              <h2 className="text-xl font-bold">
                 <strong>Academic Records</strong>
               </h2>
               <div className="mt-2 text-base text-sm sm:text-base">
@@ -258,7 +258,7 @@ export default function HomePageEn() {
 
             {/* Research & Awards */}
             <section className="mt-6">
-              <h2 className="text-xl font-medium">
+              <h2 className="mt-6 text-xl font-bold">
                 <strong>Research & Awards</strong>
               </h2>
 
@@ -300,7 +300,7 @@ export default function HomePageEn() {
                 </li>
               </ul>
 
-              <h2 className="mt-6 text-xl font-medium">
+              <h2 className="mt-6 text-xl font-bold">
                 <strong>Honors</strong>
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
@@ -319,7 +319,7 @@ export default function HomePageEn() {
             {/* Skills & Languages */}
             <section className="mt-6 grid gap-8 md:grid-cols-2">
               <div>
-                <h2 className="text-xl font-medium">
+                <h2 className="text-xl font-bold">
                   <strong>Technical Skills</strong>
                 </h2>
                 <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
@@ -331,7 +331,7 @@ export default function HomePageEn() {
               </div>
 
               <div>
-                <h2 className="text-xl font-medium">
+                <h2 className="text-xl font-bold">
                   <strong>Language Skills</strong>
                 </h2>
                 <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
@@ -352,7 +352,7 @@ export default function HomePageEn() {
 
             {/* Education & Experience */}
             <section className="mt-6">
-              <h2 className="text-xl font-medium">
+              <h2 className="text-xl font-bold">
                 <strong>Education & International Experience</strong>
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
@@ -362,7 +362,7 @@ export default function HomePageEn() {
                 <li>Childhood in Singapore (2011-2013)</li>
               </ul>
 
-              <h2 className="mt-6 text-xl font-medium">
+              <h2 className="mt-6 text-xl font-bold">
                 <strong>Past Activities & Presentations</strong>
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
@@ -412,7 +412,7 @@ export default function HomePageEn() {
 
             {/* Media & Links */}
             <section className="mt-6">
-              <h2 className="text-xl font-medium">
+              <h2 className="text-xl font-bold">
                 <strong>Media &amp; Links</strong>
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
@@ -450,7 +450,7 @@ export default function HomePageEn() {
                   </a>
                 </li>
               </ul>
-              <h2 className="mt-6 text-xl font-medium">
+              <h2 className="mt-6 text-xl font-bold">
                 <strong>Other Skills &amp; Hobbies</strong>
               </h2>
               <p className="mt-3 text-neutral-800 text-sm sm:text-base">
