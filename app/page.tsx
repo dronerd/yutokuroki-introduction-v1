@@ -129,7 +129,7 @@ export default function HomePageEn() {
           {/* RIGHT COLUMN */}
           <section className="w-full md:w-3/4 md:ml-8 p-4 md:p-6 mt-6 md:mt-0">
             <section>
-              <h2 className="text-xl font-bold">
+              <h2 className="text-xl font-medium">
                 <strong>About Me</strong>
               </h2>
               <p className="mt-3 leading-7 text-neutral-800 text-sm sm:text-base">
@@ -190,7 +190,7 @@ export default function HomePageEn() {
 
             {/* Upcoming Activities & Articles */}
             <section className="mt-6">
-              <h2 className="text-xl font-bold">
+              <h2 className="text-xl font-medium">
                 <strong>Upcoming Activities</strong>
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">            

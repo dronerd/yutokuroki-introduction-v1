@@ -126,7 +126,7 @@ export default function HomePageJa() {
           {/* RIGHT COLUMN */}
           <section className="w-full md:w-3/4 md:ml-8 p-4 md:p-6 mt-6 md:mt-0">
             <section>
-              <h2 className="text-xl font-bold">自己紹介</h2>
+              <h2 className="text-xl font-medium">自己紹介</h2>
               <p className="mt-3 leading-7 text-neutral-800 text-sm sm:text-base">
                 <strong>国際科学コンテスト、ソフトウェア開発、異文化交流</strong>
                 を経験してきました。
@@ -156,7 +156,7 @@ export default function HomePageJa() {
                 ぜひご覧ください!
               </p>
 
-              <h2 className="mt-6 text-xl font-bold">公開中のアプリ</h2>
+              <h2 className="mt-6 text-xl font-medium">公開中のアプリ</h2>
               <p className="mt-2 text-neutral-900 text-sm sm:text-base">
                 英単語学習アプリ{" "}
                 <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
@@ -168,7 +168,7 @@ export default function HomePageJa() {
               </Link>
 
               {/* Latest activities */}
-              <h2 className="mt-6 text-xl font-bold">現在の活動</h2>
+              <h2 className="mt-6 text-xl font-medium">現在の活動</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
                   楽天にて <strong>データサイエンティスト</strong> インターン
@@ -189,7 +189,7 @@ export default function HomePageJa() {
 
             {/* Upcoming Activities */}
             <section className="mt-6">
-              <h2 className="text-xl font-bold">今後の活動</h2>
+              <h2 className="text-xl font-medium">今後の活動</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
                   <strong>2026年1月〜3月：</strong>
@@ -199,7 +199,7 @@ export default function HomePageJa() {
               </ul>
 
               {/* Latest Note articles */}
-              <h2 className="mt-6 text-xl font-bold">最近執筆したNote記事</h2>
+              <h2 className="mt-6 text-xl font-medium">最近執筆したNote記事</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li key="Note Article1" className="py-0.5">
                     <a href="https://note.com/projectfluence/n/n05e8b127014f" className="underline" target="_blank" rel="noopener noreferrer">
@@ -231,7 +231,7 @@ export default function HomePageJa() {
 
             {/* Academic Records */}
             <section className="mt-6">
-              <h2 className="text-xl font-bold">
+              <h2 className="text-xl font-medium">
                 大学の成績
               </h2>
               <div className="mt-2 text-base text-sm sm:text-base">
@@ -252,7 +252,7 @@ export default function HomePageJa() {
 
             {/* Research & Awards */}
             <section className="mt-6">
-              <h2 className="text-xl font-bold">研究・受賞歴</h2>
+              <h2 className="text-xl font-medium">研究・受賞歴</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
                   <a href="https://isef.net/project/robo024-novel-medical-drone-delivery-using-k-means-and-tsp" target="_blank" rel="noopener noreferrer" className="underline">
@@ -286,7 +286,7 @@ export default function HomePageJa() {
                 </li>
               </ul>
 
-              <h2 className="mt-6 text-xl font-bold">受賞・栄誉</h2>
+              <h2 className="mt-6 text-xl font-medium">受賞・栄誉</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
                   <a href="https://www.mext.go.jp/b_menu/houdou/2025/1416581_00001.htm" target="_blank" rel="noopener noreferrer" className="underline">
@@ -302,7 +302,7 @@ export default function HomePageJa() {
             {/* Skills & Languages */}
             <section className="mt-6 grid gap-8 md:grid-cols-2">
               <div>
-                <h2 className="text-xl font-bold">技術スキル</h2>
+                <h2 className="text-xl font-medium">技術スキル</h2>
                 <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                   <li>プログラミング: Python, C++, TypeScript</li>
                   <li>AI・ML: 最適化、LLMアプリケーション開発、Agentic AI開発</li>
@@ -312,7 +312,7 @@ export default function HomePageJa() {
               </div>
               
               <div>
-                <h2 className="text-xl font-bold">語学スキル</h2>
+                <h2 className="text-xl font-medium">語学スキル</h2>
                 <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                   <li>
                     英語 — TOEFL iBT 116/120, TOEIC 990/990,
@@ -331,7 +331,7 @@ export default function HomePageJa() {
 
             {/* Education & Experience */}
             <section className="mt-6">
-              <h2 className="text-xl font-bold">学歴・国際経験</h2>
+              <h2 className="text-xl font-medium">学歴・国際経験</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>早稲田大学 基幹理工学部（在学中）</li>
                 <li>早稲田大学高等学院・中学部</li>
@@ -339,7 +339,7 @@ export default function HomePageJa() {
                 <li>幼少期: シンガポール滞在（2011–2013）</li>
               </ul>
 
-              <h2 className="mt-6 text-xl font-bold">過去の活動・発表</h2>
+              <h2 className="mt-6 text-xl font-medium">過去の活動・発表</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>早稲田大学高等学院 硬式テニス部</li>
                 <li>Toshiba Youth Club Asia（チームリーダー）</li>
@@ -385,7 +385,7 @@ export default function HomePageJa() {
 
             {/* Media & Hobbies */}
             <section className="mt-6">
-              <h2 className="text-xl font-bold">メディア・リンク</h2>
+              <h2 className="text-xl font-medium">メディア・リンク</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>朝日新聞2024年12月10日朝刊、12月22日朝刊</li>
                 <li>
@@ -422,7 +422,7 @@ export default function HomePageJa() {
                 </li>
               </ul>
 
-              <h2 className="mt-6 text-xl font-bold">その他のスキル・趣味</h2>
+              <h2 className="mt-6 text-xl font-medium">その他のスキル・趣味</h2>
               <p className="mt-3 text-neutral-700 text-sm sm:text-base">
                 プレゼンテーション、語学指導、イベント運営、テニス、難解ルービックキューブの解法、ジャグリング、料理、なわとび
               </p>
