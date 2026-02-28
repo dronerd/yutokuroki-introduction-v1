@@ -234,7 +234,7 @@ export default function HomePageEn() {
               </ul>
             </section>
 
-             {/* Academic Records */}
+             
             {/* Academic Records */}
             <section className="mt-6">
               <h2 className="text-xl font-medium">
