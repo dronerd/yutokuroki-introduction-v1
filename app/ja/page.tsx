@@ -232,7 +232,7 @@ export default function HomePageJa() {
             {/* Academic Records */}
             <section className="mt-6">
               <h2 className="text-xl font-medium">
-                <strong>大学の成績</strong>
+                大学の成績
               </h2>
               <div className="mt-2 text-base text-sm sm:text-base">
                 <h3 className="font-semibold">GPA (USスケール, A/A+ = 4.0)</h3>
