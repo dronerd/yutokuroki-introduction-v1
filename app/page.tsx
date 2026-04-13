@@ -99,7 +99,7 @@ export default function HomePageEn() {
 
               <p className="text-sm sm:text-base leading-snug px-2 md:px-0">
                 <strong className="block text-base">
-                  Freshman CS student at Waseda University School of Fundamental Science and Engineering
+                  Second Year CS student at Waseda University School of Computer Science and Engineering
                 </strong>
                 <span className="block mt-1">
                   Interested in ML, LLMs, Agentic AI, and AI for Healthcare.  
