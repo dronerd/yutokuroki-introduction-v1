@@ -66,7 +66,7 @@ The site also features **Project Fluence**, an initiative I founded to support E
 Clone the repository:
 
 ```bash
-git clone https://github.com/dronerd/yutokuroki-introduction-v1.git
+git clone https://github.com/dronerd/yutokuroki-introduction.git
 cd yutokuroki-introduction-v1
 ```
 
