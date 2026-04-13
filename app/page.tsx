@@ -1,0 +1,473 @@
+// app/page.tsx
+import Link from "next/link";
+import Image from "next/image";
+import LanguageToggle from "./components/LanguageToggle"; // client component
+
+export const metadata = {
+  title: "Yuto Kuroki",
+  description:
+    "Profile page of Yuto Kuroki, CS Student at Waseda University School of Fundamental Sciences, ISEF2025 Finalist",
+  openGraph: {
+    title: "Yuto Kuroki",
+    description:
+      "Profile page of Yuto Kuroki, CS student at Waseda University School of Fundamental Sciences, ISEF2025 Finalist",
+    url: "https://yutokuroki.vercel.app",
+    images: [{ url: "https://yutokuroki.vercel.app/images/profile3.JPG", width: 1200, height: 630 }],
+    locale: "en_US",
+  },
+  twitter: { card: "summary_large_image", images: ["https://yutokuroki.vercel.app/images/profile3.JPG"] },
+};
+
+export default function HomePageEn() {
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <>
+      {/* Sticky Banner */}
+      <div className="w-full sticky top-0 z-50 bg-blue-600 text-white">
+        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center relative md:pr-24 lg:pr-8 xl:pr-0">
+          {/* ページトップ */}
+          <a
+            href="#top"
+            className={
+              "text-white font-medium hover:underline text-lg cursor-pointer select-none " +
+              "text-left md:text-center " +
+              "md:absolute md:left-1/2 md:-translate-x-1/2"
+            }
+            aria-label="scroll to top"
+          >
+            <span className="inline md:hidden">Scroll to top</span>
+            <span className="hidden md:inline">Scroll to top — Yuto Kuroki&apos;s Profile</span>
+          </a>
+
+          {/* 右側のボタン群 */}
+          <div className="ml-auto flex items-center gap-3 lg:mr-6 xl:mr-12">
+            {/* LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/yutokuroki/"
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-2 text-sm md:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
+              aria-label="external link: LinkedIn"
+            >
+              <span className="inline md:hidden">LinkedIn</span>
+              <span className="hidden md:inline">See LinkedIn</span>
+            </a>
+
+            {/* GitHub */}
+            <a
+              href="https://github.com/dronerd"
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-2 text-sm md:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
+              aria-label="external link: GitHub"
+            >
+              <span className="inline md:hidden">GitHub</span>
+              <span className="hidden md:inline">See GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <main id="top" className="w-full min-h-screen bg-neutral-100 px-4 sm:px-6 pt-4 pb-12">
+        {/* Use column layout on small screens and row on md+ */}
+        <div className="flex flex-col md:flex-row w-full relative">
+          {/* LEFT COLUMN */}
+          <aside className="w-full md:w-1/4 md:sticky top-10 self-start p-4 md:p-6 bg-white md:bg-transparent rounded-lg md:rounded-none shadow-sm md:shadow-none text-center md:text-left">
+            <div className="flex flex-col items-center md:items-start gap-4">
+              <div className="mb-2 w-full flex justify-center md:justify-start">
+                <LanguageToggle />
+              </div>
+
+              <h1 className="text-2xl sm:text-3xl font-semibold">Yuto Kuroki</h1>
+              <p className="text-base sm:text-lg mt-1">
+                AI reserach & development | ISEF 2025 Finalist
+              </p>
+
+              {/* Profile image — fixed-size */}
+              <div className="flex-shrink-0 h-28 w-28 sm:h-36 sm:w-36 rounded-full overflow-hidden bg-neutral-200 mx-auto md:mx-0">
+                <Image
+                  src="/images/profile3.JPG"
+                  alt="Profile of Yuto Kuroki"
+                  width={144}
+                  height={144}
+                  className="object-cover w-full h-full"
+                  priority
+                  quality={100}
+                />
+              </div>
+
+              <p className="text-sm sm:text-base leading-snug px-2 md:px-0">
+                <strong className="block text-base">
+                  Freshman CS student at Waseda University School of Fundamental Science and Engineering
+                </strong>
+                <span className="block mt-1">
+                  Interested in ML, LLMs, Agentic AI, and AI for Healthcare.  
+                </span>
+              </p>
+
+              <div className="mt-2 flex flex-col gap-1 text-base">
+                <div>
+                  <strong>Email:</strong>{" "}
+                  <a className="underline break-words" href="mailto:yutokuroki.projectfluence@gmail.com">
+                    yutokuroki.projectfluence@gmail.com
+                  </a>
+                </div>
+                <a href="https://github.com/dronerd" target="_blank" rel="noopener noreferrer" className="underline">
+                  GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/yutokuroki/" target="_blank" rel="noopener noreferrer" className="underline">
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+          </aside>
+
+          {/* FULL-SCREEN VERTICAL LINE (only on md+) */}
+          <div className="hidden md:block absolute top-0 bottom-0 left-1/4 w-px bg-gray-300"></div>
+
+          {/* RIGHT COLUMN */}
+          <section className="w-full md:w-3/4 md:ml-8 p-4 md:p-6 mt-6 md:mt-0">
+            <section>
+              <h2 className="text-xl font-medium">
+                <strong>About Me</strong>
+              </h2>
+              <p className="mt-3 leading-7 text-neutral-800 text-sm sm:text-base">
+                My experiences span <strong>international science competitions, software development, public speaking, and cross-cultural programs. </strong>
+                I have represented Japan at <strong>ISEF</strong> and currently have a strong interest in <strong>machine learning</strong>, <strong>large language models</strong>, <strong>Agentic AI</strong>, and <strong>AI for healthcare</strong>. I am passionate about leveraging technology to solve real-world problems and am actively involved in cross cultural exchange.
+              </p>
+              <br/>
+
+              <h2 className="text-xl font-medium flex items-center gap-2">
+                <strong>Project Fluence</strong>
+
+                <Link href="https://projectfluence.vercel.app" aria-label="Project Fluence" target="_blank" className="ml-2">
+                  <Image src="/images/logo.png" alt="Project Fluence logo" width={80} height={80} className="rounded-md object-cover" />
+                </Link>
+              </h2>
+
+              <p className="mt-3 leading-7 text-neutral-800 text-sm sm:text-base">
+                I founded{" "}
+                <Link aria-label="Project Fluence" href="https://projectfluence.vercel.app" className="underline" target="_blank">
+                  <strong>Project Fluence</strong>
+                </Link>{" "}
+                to help more people in Japan achieve their dreams through English skills and their areas of expertise. I personally create English learning apps utilizing AI and write Note articles. Feel free to check them out!
+              </p>
+
+              <h2 className="mt-6 text-xl font-medium">
+                <strong>Latest Apps</strong>
+              </h2>
+              <p className="mt-2 text-neutral-900 text-sm sm:text-base">
+                English vocabulary learning app{" "}
+                <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
+                  <strong>VocabStream</strong>
+                </a>
+              </p>
+              <Link href="https://vocabstream.vercel.app" target="_blank" className="inline-block ml-2">
+                <Image src="/VocabStream.png" alt="VocabStream preview" width={84} height={84} className="rounded-md object-cover" />
+              </Link>
+
+              {/* Latest activities */}
+              <h2 className="mt-6 text-xl font-medium">
+                <strong>Ongoing Activities</strong>
+              </h2>
+              <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>
+                  Working at <strong> Rakuten </strong> as a <strong>Data Scientist</strong> Intern, in the field of Agentic AI systems. 
+                </li>
+                <li>
+                  Supporting {" "} 
+                  <a className="underline" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">
+                    <strong>ISEF2026</strong>
+                  </a>
+                  {" "} finalists from Japan as NSS staff member 
+                </li>
+                <li>
+                  React + FastAPI + OpenAI API — Development of English learning apps for Project Fluence{" "}
+                </li>
+              </ul>
+            </section>
+
+            {/* Upcoming Activities & Articles */}
+            <section className="mt-6">
+              <h2 className="text-xl font-medium">
+                <strong>Upcoming Activities</strong>
+              </h2>
+              <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">            
+                <li>
+                <strong>2026 January ~ March: </strong>
+                  Selected for participation in GTIE Student Entrepreneurship Program at Boston.
+                  March 3rd ~ 6th Planned visits to CIC (Cambridge Innovation Center), MIT, Harvard University, and networking in Boston.
+                </li>
+              </ul>
+
+            {/* Latest Note articles */}
+              <h2 className="mt-6 text-xl font-medium">
+                <strong>Latest Note Articles</strong>
+              </h2>
+              <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li key="Note Article1" className="py-0.5">
+                    <a href="https://note.com/projectfluence/n/n05e8b127014f" className="underline" target="_blank" rel="noopener noreferrer">
+                      大学生の自己紹介 ― 黒木勇人｜Project Fluence｜英語アプリ｜英検１級・TOEIC満点・TOEFL116/120・ドイツ語上級
+                    </a>
+                </li>
+                <li key="Note Article2" className="py-0.5">
+                    <a href="https://note.com/projectfluence/n/nd806d6fa00ec" className="underline" target="_blank" rel="noopener noreferrer">
+                      日本にいながらネイティブ級へ─英語力を効果的に伸ばす学習方法｜英検１級・TOEIC満点・TOEFL116/120・ドイツ語上級
+                    </a>
+                </li>
+                <li key="Note Article3" className="py-0.5">
+                    <a href="https://note.com/projectfluence/n/n751ab984987a" className="underline" target="_blank" rel="noopener noreferrer">
+                      英語学習にも応用できる！第２外国語（ドイツ語）から見えてきた効果的な言語学習法
+                    </a>
+                </li>  
+                <li key="Note Article4" className="py-0.5">
+                    <a href="https://note.com/projectfluence/n/nb5ee0137b415" className="underline" target="_blank" rel="noopener noreferrer">
+                      世界最難関の英語検定試験：ケンブリッジ英検C2 Proficiency（CPE）に合格しました！（リーディング・リスニング満点）
+                    </a>
+                </li>  
+                <li key ="Note Article5" className="py-0.5">
+                    <a href="https://note.com/projectfluence/n/n71bd9003af29" className="underline" target="_blank" rel="noopener noreferrer">
+                    （上級者向け）日本にいながら英語力をさらに高める効果的な方法
+                    </a>
+                </li>
+              </ul>
+            </section>
+
+             
+            {/* Academic Records */}
+            <section className="mt-6">
+              <h2 className="text-xl font-medium">
+                <strong>Academic Records</strong>
+              </h2>
+              <div className="mt-2 text-base text-sm sm:text-base">
+                <h3 className="font-semibold">GPA (US Scale, A/A+ = 4.0)</h3>
+                <p className="mt-1">
+                  Semester 1: <strong>4.00</strong> / 4.00<br />
+                  Semester 2: <strong>4.00</strong> / 4.00<br />
+                  Cumulative: <strong>4.00</strong> / 4.00
+                </p>
+                <h3 className="mt-4 font-semibold">GPA (Waseda Scale, A = 3, A+ = 4)</h3>
+                <p className="mt-1">
+                  Semester 1: <strong>3.89</strong> / 4.00<br />
+                  Semester 2: <strong>3.97</strong> / 4.00<br />
+                  Cumulative: <strong>3.94</strong> / 4.00
+                </p>
+              </div>
+            </section>
+
+            {/* Research & Awards */}
+            <section className="mt-6">
+              <h2 className="text-xl font-medium">
+                <strong>Research & Awards</strong>
+              </h2>
+
+              <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>
+                  <a
+                    href="https://isef.net/project/robo024-novel-medical-drone-delivery-using-k-means-and-tsp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline"
+                  >
+                    <strong>ISEF 2025 Finalist</strong>
+                  </a>
+                  — Columbus, Ohio (Robotics &amp; Intelligent Machines Category)
+                </li>
+                <li>
+                  <a href="https://manabu.asahi.com/jsec/2024/award/index.html" target="_blank" rel="noopener noreferrer" className="underline">
+                    <strong>JSEC 2025 Finalist &amp; Sony Award (8th nationally)</strong>
+                  </a>
+                  — Research on drone delivery optimization
+                </li>
+                <li>
+                  <a href="https://www.ciec.or.jp/special/entry-1484.html" target="_blank" rel="noopener noreferrer" className="underline">
+                    2025 CIEC Spring Conference 1st Place (U-18)
+                  </a>
+                  — Research on efficient autonomous drone deliveries
+                </li>
+                <li>
+                  <a href="https://www.ciec.or.jp/special/entry-1436.html" target="_blank" rel="noopener noreferrer" className="underline">
+                    2024 CIEC Spring Conference 3rd Place (U-18)
+                  </a>
+                  — Research on autonomous obstacle avoidance system based on ML
+                </li>
+                <li>
+                  <a href="https://www.goethe.de/resources/files/pdf315/japanheute_2024.pdf" target="_blank" rel="noopener noreferrer" className="underline">
+                    Jugendkurs Deutsch plus Beruf
+                  </a>
+                  — First Japansese scholarship recipient (Dieter Schwarz Foundation), visits to leading universities, companies, and AI seminars in Germany
+                </li>
+              </ul>
+
+              <h2 className="mt-6 text-xl font-medium">
+                <strong>Honors</strong>
+              </h2>
+              <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>
+                  <a href="https://www.mext.go.jp/b_menu/houdou/2025/1416581_00001.htm" target="_blank" rel="noopener noreferrer" className="underline">
+                    Minister of Education, Culture, Sports, Science and Technology Special Award
+                  </a>
+                </li>
+
+                <li>Kato Yamazaki Scholarship Honor Recipient (with Special Commendation)</li>
+                <li>Tokyo Metropolitan High School Cultural Federation Outstanding Cultural Activities Award</li>
+                <li>Waseda University Senior High School Academic Excellence Award (1st among 485 students)</li>
+              </ul>
+            </section>
+
+            {/* Skills & Languages */}
+            <section className="mt-6 grid gap-8 md:grid-cols-2">
+              <div>
+                <h2 className="text-xl font-medium">
+                  <strong>Technical Skills</strong>
+                </h2>
+                <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                  <li>Programming: Python, C++, TypeScript</li>
+                  <li>AI・ML: Optimization, LLM application development, Agentic AI development</li>
+                  <li>Web &amp; App: React, FastAPI, Next.js (This page was created with React + Next.js)</li>
+                  <li>Hardware &amp; Robotics: Drone programming, Raspberry Pi, Arduino</li>
+                </ul>
+              </div>
+
+              <div>
+                <h2 className="text-xl font-medium">
+                  <strong>Language Skills</strong>
+                </h2>
+                <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                  <li>
+                    English — TOEFL iBT 116/120, TOEIC 990/990,
+                    <br />
+                    Eiken Grade 1 (top 1% score at 14 years old),
+                    <br />
+                    SAT 1530/1600
+                    <br />
+                    Cambridge C2 Exam (CPE) (Full scores in Reading and Listening)
+                  </li>
+                  <li>German — Goethe-Zertifikat C2 (CEFR C2) in Reading, Listening, and Speaking and C1 in Writing </li>
+                  <li>Others — Basic Swedish </li>
+                </ul>
+              </div>
+            </section>
+
+            {/* Education & Experience */}
+            <section className="mt-6">
+              <h2 className="text-xl font-medium">
+                <strong>Education & International Experience</strong>
+              </h2>
+              <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>Waseda University (Current) — School of Fundamental Science and Engineering</li>
+                <li>Waseda University Senior &amp; Junior High School</li>
+                <li>Novi Middle School, Michigan, USA</li>
+                <li>Childhood in Singapore (2011-2013)</li>
+              </ul>
+
+              <h2 className="mt-6 text-xl font-medium">
+                <strong>Past Activities & Presentations</strong>
+              </h2>
+              <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>Waseda University Senior Highschool Tennis club</li>
+                <li>Toshiba Youth Club Asia (Team Leader)</li>
+                <li>
+                  <a href="https://spice.fsi.stanford.edu/fellowship/stanford-e-japan" target="_blank" rel="noopener noreferrer" className="underline">
+                    Stanford E-Japan 2023 graduate
+                  </a>
+                </li>
+                <li>Presentations at SAP Japan, Sony AI, Sony Corporation, Aerosense, Bosch Japan</li>
+                <li>
+                  <a href="https://www.hana.hs.kr/symposium/03_paper.html" target="_blank" rel="noopener noreferrer" className="underline">
+                    Hana Academy Seoul International Symposium
+                  </a>
+                  — Presenter &amp; Moderator
+                </li>
+                <li>School representative speech to 1000+ prospective students and families</li>
+                <li>
+                  Presentations at Goethe Institut Tokyo (&quot;Jugendkurs Deutsch plus Beruf&quot;, &quot;Der Wert des Deutschlernens, ein Rückblick&quot;)
+                </li>
+                <li>
+                  Activities as a staff member of the 
+                   {" "}
+                  <a className="underline" href="https://nss.or.jp/" target="_blank" rel="noopener noreferrer">
+                    NPO Nippon Science Service (NSS) :
+                  </a>
+                  {" "}
+                   participation in exhibitions at 
+                  {" "}
+                  <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
+                    Science Agora 2025
+                  </a>, 
+                  {" "}
+                    support for the final judging session of 
+                  {" "}
+                  <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
+                    JSEC 2025
+                  </a>, 
+                    and support of ISEF 2026 finalists from Japan
+                </li>
+                <li>
+                  Special Guest Speech at the Waseda University School of Political Science and Economics German Speech Contest
+                </li>
+              </ul>
+            </section>
+
+            {/* Media & Links */}
+            <section className="mt-6">
+              <h2 className="text-xl font-medium">
+                <strong>Media &amp; Links</strong>
+              </h2>
+              <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>Asahi Newspaper, Morning Edition, December 10, 2024 and December 22, 2024</li>
+                <li>
+                  <a href="https://manabu.asahi.com/jsec/2024/actibook/?detailFlg=0&pNo=12" target="_blank" rel="noopener noreferrer" className="underline">
+                    JSEC 2025 Newsletter
+                  </a>
+                </li>
+                <li>August 2025 さぴあ magazine</li>
+                <li>
+                  <a href="https://www.youtube.com/watch?v=Vlgrx-uviHo" target="_blank" rel="noopener noreferrer" className="underline">
+                    PASCH Goethe Institut official YouTube
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.asahi.com/articles/ASSDK2FK0SDKPLBJ001M.html" target="_blank" rel="noopener noreferrer" className="underline">
+                    Asahi Newspaper Digital
+                  </a>
+                </li>
+
+                <li>
+                  Waseda University Senior High School website:{" "}
+                  <a href="https://www.waseda.jp/school/shs/news/2024/04/05/8235/" target="_blank" rel="noopener noreferrer" className="underline mr-4">
+                    CIEC2024 award ,
+                  </a>{" "}
+                  <a href="https://www.waseda.jp/school/shs/news/2025/04/25/9556/" target="_blank" rel="noopener noreferrer" className="underline mr-4">
+                    CIEC2025 award ,
+                  </a>{" "}
+                  <a href="https://www.waseda.jp/school/shs/news/2024/12/27/9173/" target="_blank" rel="noopener noreferrer" className="underline">
+                    JSEC Finalist Sony Award ,
+                  </a>{" "}
+                  <a href="https://www.waseda.jp/school/shs/news/2025/10/01/10001/" target="_blank" rel="noopener noreferrer" className="underline">
+                    Goethe Zertifikat C1 
+                  </a>
+                </li>
+              </ul>
+              <h2 className="mt-6 text-xl font-medium">
+                <strong>Other Skills &amp; Hobbies</strong>
+              </h2>
+              <p className="mt-3 text-neutral-800 text-sm sm:text-base">
+                Public speaking, language teaching, event organization, solving complex Rubik&apos;s cubes, juggling, cooking, jump rope
+              </p>
+            </section>
+
+            {/* Footer */}
+            <footer className="mt-12 border-t pt-6 text-sm text-neutral-700 text-center md:text-left">
+              All content © {currentYear} Yuto Kuroki
+            </footer>
+            <Link href="/privacy" target="_blank">
+              Privacy Policy
+            </Link>
+          </section>
+        </div>
+      </main>
+    </>
+  );
+}
