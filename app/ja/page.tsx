@@ -6,11 +6,11 @@ import LanguageToggle from "../components/LanguageToggle"; // client component
 export const metadata = {
   title: "黒木 勇人",
   description:
-    "黒木勇人のプロフィールページ：早稲田大学基幹理工学部、ISEF2025日本代表、AI研究開発",
+    "黒木勇人のプロフィールページ：早稲田大学情報理工学科２年、ISEF2025日本代表、AI研究開発",
   openGraph: {
     title: "黒木 勇人",
     description:
-      "黒木勇人のプロフィールページ：早稲田大学基幹理工学部、ISEF2025日本代表、AI研究開発",
+      "黒木勇人のプロフィールページ：早稲田大学情報理工学科２年、ISEF2025日本代表、AI研究開発",
     url: "https://yutokuroki.vercel.app/ja",
     images: [{ url: "https://yutokuroki.vercel.app/images/profile3.JPG", width: 1200, height: 630 }],
     locale: "ja_JP",
@@ -97,7 +97,7 @@ export default function HomePageJa() {
               </div>
 
               <p className="text-sm sm:text-base leading-relaxed px-2 md:px-0">
-                <strong className="block">早稲田大学基幹理工学部1年</strong>
+                <strong className="block">早稲田大学基幹理工学部2年</strong>
                 <span className="block mt-1">
                   機械学習、LLM、Agentic AI、ヘルスケア分野へのAI応用に関心があります。
                 </span>
@@ -171,18 +171,14 @@ export default function HomePageJa() {
               <h2 className="mt-6 text-xl font-medium">現在の活動</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  楽天にて <strong>データサイエンティスト</strong> インターン
-                  ー Agentic AI システムの研究開発
-                </li>
-                <li>
                   NSSスタッフとして{" "}
                   <a className="underline" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">
-                    <strong>ISEF2026</strong>
+                    ISEF2026
                   </a>
                   日本代表のサポート
                 </li>
                 <li>
-                  React + FastAPI + OpenAI API — Project Fluence の英語学習アプリ開発
+                  Project Fluence の英語学習アプリ開発
                 </li>
               </ul>
             </section>
@@ -192,9 +188,7 @@ export default function HomePageJa() {
               <h2 className="text-xl font-medium">今後の活動</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  <strong>2026年1月〜3月：</strong>
-                  GTIE Student Entrepreneurship Program Boston Bootcamp に選抜され参加予定。
-                  3月3日〜6日に CIC（Cambridge Innovation Center）、MIT、ハーバード大学訪問予定およびボストンの起業家とのネットワーキング
+                  2026年8月9日〜9月27日：Nakatani RIESプログラムを通じて<strong>ジョージア工科大学</strong>にて<strong>研究インターンシップ</strong>予定。中谷財団の奨学生として選抜され、研究室にて研究活動に従事予定。
                 </li>
               </ul>
 
@@ -234,13 +228,7 @@ export default function HomePageJa() {
               <h2 className="text-xl font-medium">
                 大学の成績
               </h2>
-              <div className="mt-2 text-base text-sm sm:text-base">
-                <h3 className="font-semibold">GPA (USスケール, A/A+ = 4.0)</h3>
-                <p className="mt-1">
-                  第1セメスター: <strong>4.00</strong> / 4.00<br />
-                  第2セメスター: <strong>4.00</strong> / 4.00<br />
-                  累積GPA: <strong>4.00</strong> / 4.00
-                </p>
+              <div className="mt-2 text-base sm:text-base">
                 <h3 className="mt-4 font-semibold">GPA (早稲田大学スケール, A = 3, A+ = 4)</h3>
                 <p className="mt-1">
                   第1セメスター: <strong>3.89</strong> / 4.00<br />
@@ -290,7 +278,7 @@ export default function HomePageJa() {
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
                   <a href="https://www.mext.go.jp/b_menu/houdou/2025/1416581_00001.htm" target="_blank" rel="noopener noreferrer" className="underline">
-                    文部科学大臣特別賞
+                    <strong>文部科学大臣特別賞</strong>
                   </a>
                 </li>
                 <li>加藤山崎奨学金表彰</li>
@@ -305,8 +293,8 @@ export default function HomePageJa() {
                 <h2 className="text-xl font-medium">技術スキル</h2>
                 <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                   <li>プログラミング: Python, C++, TypeScript</li>
-                  <li>AI・ML: 最適化、LLMアプリケーション開発、Agentic AI開発</li>
-                  <li>Web・アプリ: React, FastAPI, Next.js（本ページは React + Next.js で作成）</li>
+                  <li>AI・ML: 最適化、LLMアプリケーション開発、Agentic AI開発、AIセキュリティ</li>
+                  <li>Web・アプリ: React, FastAPI, Next.js（本ページは Next.js で作成）</li>
                   <li>ハードウェア・ロボティクス: ドローンプログラミング、Raspberry Pi、Arduino</li>
                 </ul>
               </div>
@@ -324,7 +312,6 @@ export default function HomePageJa() {
                     ケンブリッジ英検C2 (CPE) 合格 (リーディング・リスニング満点)
                   </li>
                   <li>ドイツ語 — 世界最難関のドイツ語検定試験Goethe-Zertifikat C2 (CEFRC2) の読む・聞く・話す技能とC1の書く技能</li>
-                  <li>その他 — 基礎のスウェーデン語</li>
                 </ul>
               </div>
             </section>
@@ -339,13 +326,64 @@ export default function HomePageJa() {
                 <li>幼少期: シンガポール滞在（2011–2013）</li>
               </ul>
 
+              <h2 className="mt-6 text-xl font-medium">
+                <strong>職歴</strong>
+              </h2>
+              <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>
+                  <strong>データサイエンティストインターン（楽天AI for Business）</strong>
+                  （2026年2月3日〜2026年3月31日）— エージェント型AIの安全性に関する研究を実施し、AIエージェントの評価実験の設計・実行を担当。成果をチーム全体に向けて発表。英語を主言語とする国際的な環境で協働した。
+                </li>
+
+                <li>
+                  <strong>スタッフ（</strong>
+                  <a
+                    className="underline"
+                    href="https://nss.or.jp/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    NPO法人 日本サイエンスサービス（NSS）
+                  </a>
+                  <strong>）</strong>
+                  （2025年7月〜現在）— 高校生の研究発表支援、科学アウトリーチ活動
+                  <a
+                    className="underline"
+                    href="https://www.jst.go.jp/sis/scienceagora/2025/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    サイエンスアゴラ2025
+                  </a>
+                  での展示参加、
+                  <a
+                    className="underline"
+                    href="https://manabu.asahi.com/jsec/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    JSEC 2025
+                  </a>
+                  最終審査の運営補助、およびISEF 2026に出場する日本代表生徒の支援を担当。
+                </li>
+
+                <li>
+                  <strong>編集者（Redakteur）ゲーテ・インスティトゥート学生新聞</strong>
+                  （2025年9月〜2025年11月）— 有償編集者として学生記事の編集を担当。巻末の総括（Schlusswort）を執筆し、ゲーテ・インスティトゥート東京にてプレゼンテーションを行った。
+                </li>
+              </ul>
+
               <h2 className="mt-6 text-xl font-medium">過去の活動・発表</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>
+                  2026年1月〜3月 <strong>GTIE Student Entrepreneurship Program</strong>参加  
+                  早稲田大学および文部科学省による全額支援のもと選抜参加者として採択され、Cambridge Innovation Center、MIT、Harvard University等におけるネットワーキング
+                </li>
                 <li>早稲田大学高等学院 硬式テニス部</li>
                 <li>Toshiba Youth Club Asia（チームリーダー）</li>
                 <li>
                   <a href="https://spice.fsi.stanford.edu/fellowship/stanford-e-japan" target="_blank" rel="noopener noreferrer" className="underline">
-                    Stanford E-Japan 2023 修了
+                    <strong>Stanford E-Japan 2023 修了</strong>
                   </a>
                 </li>
                 <li>SAP Japan, Sony AI, ソニー株式会社, エアロセンス, Bosch Japanでのプレゼンテーション</li>
@@ -358,24 +396,6 @@ export default function HomePageJa() {
                 <li>学校説明会での生徒代表スピーチ（1000名以上の聴衆）</li>
                 <li>
                   ゲーテ・インスティトゥート東京でのプレゼンテーション (&quot;Jugendkurs Deutsch plus Beruf&quot;, &quot;Der Wert des Deutschlernens, ein Rückblick&quot;)
-                </li>
-                <li>
-                  <a className="underline" href="https://nss.or.jp/" target="_blank" rel="noopener noreferrer">
-                    NPO法人日本サイエンスサービス（NSS）
-                  </a>
-                  スタッフとしての活動：
-                  {" "}
-                  JST主催
-                  <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
-                    サイエンスアゴラ2025
-                  </a>
-                  での展示・発表
-                  {" "}
-                  <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
-                    JSEC2025
-                  </a>
-                  最終審査会のサポート、
-                  ISEF2026日本代表の支援
                 </li>
                 <li>
                   早稲田大学政治経済学部のドイツ語スピーチコンテストにて特別ゲストスピーチ
@@ -435,6 +455,7 @@ export default function HomePageJa() {
             <Link href="/privacy" target="_blank">
               Privacy Policy
             </Link>
+            
           </section>
         </div>
       </main>

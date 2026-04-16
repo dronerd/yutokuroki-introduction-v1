@@ -6,11 +6,11 @@ import LanguageToggle from "./components/LanguageToggle"; // client component
 export const metadata = {
   title: "Yuto Kuroki",
   description:
-    "Profile page of Yuto Kuroki, CS Student at Waseda University School of Fundamental Sciences, ISEF2025 Finalist",
+    "Profile page of Yuto Kuroki, Student at Waseda University School of Computer Science and Engineering, ISEF2025 Finalist",
   openGraph: {
     title: "Yuto Kuroki",
     description:
-      "Profile page of Yuto Kuroki, CS student at Waseda University School of Fundamental Sciences, ISEF2025 Finalist",
+      "Profile page of Yuto Kuroki, CS student at Waseda University School of Computer Science and Engineering, ISEF2025 Finalist",
     url: "https://yutokuroki.vercel.app",
     images: [{ url: "https://yutokuroki.vercel.app/images/profile3.JPG", width: 1200, height: 630 }],
     locale: "en_US",
@@ -173,17 +173,14 @@ export default function HomePageEn() {
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  Working at <strong> Rakuten </strong> as a <strong>Data Scientist</strong> Intern, in the field of Agentic AI systems. 
-                </li>
-                <li>
                   Supporting {" "} 
                   <a className="underline" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">
-                    <strong>ISEF2026</strong>
+                    ISEF2026
                   </a>
                   {" "} finalists from Japan as NSS staff member 
                 </li>
                 <li>
-                  React + FastAPI + OpenAI API — Development of English learning apps for Project Fluence{" "}
+                  Development of English learning apps for Project Fluence{" "}
                 </li>
               </ul>
             </section>
@@ -193,11 +190,9 @@ export default function HomePageEn() {
               <h2 className="text-xl font-medium">
                 <strong>Upcoming Activities</strong>
               </h2>
-              <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">            
+              <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">        
                 <li>
-                <strong>2026 January ~ March: </strong>
-                  Selected for participation in GTIE Student Entrepreneurship Program at Boston.
-                  March 3rd ~ 6th Planned visits to CIC (Cambridge Innovation Center), MIT, Harvard University, and networking in Boston.
+                  August 9 – September 27, 2026: Planned <strong>Research Internship</strong> at the <strong>Georgia Institute of Technology</strong> through the Nakatani RIES Program. Selected as one of 11 scholarship recipients from the Nakatani Foundation, will conduct research in a laboratory under faculty supervision.
                 </li>
               </ul>
 
@@ -240,13 +235,7 @@ export default function HomePageEn() {
               <h2 className="text-xl font-medium">
                 <strong>Academic Records</strong>
               </h2>
-              <div className="mt-2 text-base text-sm sm:text-base">
-                <h3 className="font-semibold">GPA (US Scale, A/A+ = 4.0)</h3>
-                <p className="mt-1">
-                  Semester 1: <strong>4.00</strong> / 4.00<br />
-                  Semester 2: <strong>4.00</strong> / 4.00<br />
-                  Cumulative: <strong>4.00</strong> / 4.00
-                </p>
+              <div className="mt-2 text-base sm:text-base">
                 <h3 className="mt-4 font-semibold">GPA (Waseda Scale, A = 3, A+ = 4)</h3>
                 <p className="mt-1">
                   Semester 1: <strong>3.89</strong> / 4.00<br />
@@ -306,7 +295,7 @@ export default function HomePageEn() {
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
                   <a href="https://www.mext.go.jp/b_menu/houdou/2025/1416581_00001.htm" target="_blank" rel="noopener noreferrer" className="underline">
-                    Minister of Education, Culture, Sports, Science and Technology Special Award
+                    <strong>Minister of Education, Culture, Sports, Science and Technology Special Award</strong>
                   </a>
                 </li>
 
@@ -324,8 +313,8 @@ export default function HomePageEn() {
                 </h2>
                 <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                   <li>Programming: Python, C++, TypeScript</li>
-                  <li>AI・ML: Optimization, LLM application development, Agentic AI development</li>
-                  <li>Web &amp; App: React, FastAPI, Next.js (This page was created with React + Next.js)</li>
+                  <li>AI・ML: Optimization, LLM application development, Agentic AI development, AI safety</li>
+                  <li>Web &amp; App: React, FastAPI, Next.js (This page was created with Next.js)</li>
                   <li>Hardware &amp; Robotics: Drone programming, Raspberry Pi, Arduino</li>
                 </ul>
               </div>
@@ -345,32 +334,77 @@ export default function HomePageEn() {
                     Cambridge C2 Exam (CPE) (Full scores in Reading and Listening)
                   </li>
                   <li>German — Goethe-Zertifikat C2 (CEFR C2) in Reading, Listening, and Speaking and C1 in Writing </li>
-                  <li>Others — Basic Swedish </li>
                 </ul>
               </div>
             </section>
 
-            {/* Education & Experience */}
+            {/* Education & Work Experience */}
             <section className="mt-6">
               <h2 className="text-xl font-medium">
                 <strong>Education & International Experience</strong>
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
-                <li>Waseda University (Current) — School of Fundamental Science and Engineering</li>
+                <li><strong>Waseda University </strong> (Current) — School of Computer Science and Engineering</li>
                 <li>Waseda University Senior &amp; Junior High School</li>
                 <li>Novi Middle School, Michigan, USA</li>
                 <li>Childhood in Singapore (2011-2013)</li>
               </ul>
 
               <h2 className="mt-6 text-xl font-medium">
+                <strong>Work Experience</strong>
+              </h2>
+              <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>
+                  <strong>Data Scientist Intern, Rakuten AI for Business</strong> (Feb 3, 2026 – Mar 31, 2026) — Conducted research on agentic AI safety, designed and executed evaluation experiments for AI agents, and presented findings to the full team. Collaborated in an international environment with English as the primary working language.
+                </li>
+
+                <li>
+                  <strong>Staff Member, </strong>
+                  <a
+                    className="underline"
+                    href="https://nss.or.jp/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    NPO Nippon Science Service (NSS)
+                  </a>
+                  {" "} (Jul 2025 – Present) — Contributed to science outreach and event operations, including exhibitions at{" "}
+                  <a
+                    className="underline"
+                    href="https://www.jst.go.jp/sis/scienceagora/2025/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Science Agora 2025
+                  </a>, support for the final judging session of{" "}
+                  <a
+                    className="underline"
+                    href="https://manabu.asahi.com/jsec/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    JSEC 2025
+                  </a>, and assistance for Japanese finalists participating in ISEF 2026.
+                </li>
+
+                <li>
+                  <strong>Editor (Redakteur), Goethe-Institut Student Newspaper</strong> (Sep 2025 – Nov 2025) — Served as a paid editor, revising student articles, authoring the concluding editorial (Schlusswort), and delivering a presentation at the Goethe-Institut Tokyo.
+                </li>
+              </ul>
+
+              <h2 className="mt-6 text-xl font-medium">
                 <strong>Past Activities & Presentations</strong>
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
+                <li>
+                  <strong>GTIE Student Entrepreneurship Program</strong> (January 2026 ~ March 2026) 
+                  — Selected participant with full financial support from Waseda University and MEXT; engaged with leading innovation ecosystems through networking at Cambridge Innovation Center, MIT, and Harvard University
+                </li>
                 <li>Waseda University Senior Highschool Tennis club</li>
                 <li>Toshiba Youth Club Asia (Team Leader)</li>
                 <li>
                   <a href="https://spice.fsi.stanford.edu/fellowship/stanford-e-japan" target="_blank" rel="noopener noreferrer" className="underline">
-                    Stanford E-Japan 2023 graduate
+                    <strong>Stanford E-Japan 2023 graduate</strong>
                   </a>
                 </li>
                 <li>Presentations at SAP Japan, Sony AI, Sony Corporation, Aerosense, Bosch Japan</li>
@@ -380,32 +414,12 @@ export default function HomePageEn() {
                   </a>
                   — Presenter &amp; Moderator
                 </li>
-                <li>School representative speech to 1000+ prospective students and families</li>
+                <li>School representative speech at high school to 1000+ prospective students and families</li>
                 <li>
                   Presentations at Goethe Institut Tokyo (&quot;Jugendkurs Deutsch plus Beruf&quot;, &quot;Der Wert des Deutschlernens, ein Rückblick&quot;)
                 </li>
                 <li>
-                  Activities as a staff member of the 
-                   {" "}
-                  <a className="underline" href="https://nss.or.jp/" target="_blank" rel="noopener noreferrer">
-                    NPO Nippon Science Service (NSS) :
-                  </a>
-                  {" "}
-                   participation in exhibitions at 
-                  {" "}
-                  <a className="underline" href="https://www.jst.go.jp/sis/scienceagora/2025/" target="_blank" rel="noopener noreferrer">
-                    Science Agora 2025
-                  </a>, 
-                  {" "}
-                    support for the final judging session of 
-                  {" "}
-                  <a className="underline" href="https://manabu.asahi.com/jsec/" target="_blank" rel="noopener noreferrer">
-                    JSEC 2025
-                  </a>, 
-                    and support of ISEF 2026 finalists from Japan
-                </li>
-                <li>
-                  Special Guest Speech at the Waseda University School of Political Science and Economics German Speech Contest
+                  Special Guest Speech at the Waseda University School of Political Science and Economics annual German Speech Contest
                 </li>
               </ul>
             </section>
@@ -437,14 +451,14 @@ export default function HomePageEn() {
                 <li>
                   Waseda University Senior High School website:{" "}
                   <a href="https://www.waseda.jp/school/shs/news/2024/04/05/8235/" target="_blank" rel="noopener noreferrer" className="underline mr-4">
-                    CIEC2024 award ,
-                  </a>{" "}
+                    CIEC2024 award,
+                  </a>
                   <a href="https://www.waseda.jp/school/shs/news/2025/04/25/9556/" target="_blank" rel="noopener noreferrer" className="underline mr-4">
-                    CIEC2025 award ,
-                  </a>{" "}
+                    CIEC2025 award,
+                  </a>
                   <a href="https://www.waseda.jp/school/shs/news/2024/12/27/9173/" target="_blank" rel="noopener noreferrer" className="underline">
-                    JSEC Finalist Sony Award ,
-                  </a>{" "}
+                    JSEC Finalist Sony Award,
+                  </a>
                   <a href="https://www.waseda.jp/school/shs/news/2025/10/01/10001/" target="_blank" rel="noopener noreferrer" className="underline">
                     Goethe Zertifikat C1 
                   </a>
