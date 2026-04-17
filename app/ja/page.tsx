@@ -97,7 +97,7 @@ export default function HomePageJa() {
               </div>
 
               <p className="text-sm sm:text-base leading-relaxed px-2 md:px-0">
-                <strong className="block">早稲田大学基幹理工学部2年</strong>
+                <strong className="block">早稲田大学情報理工学科2年</strong>
                 <span className="block mt-1">
                   機械学習、LLM、Agentic AI、ヘルスケア分野へのAI応用に関心があります。
                 </span>
@@ -320,7 +320,7 @@ export default function HomePageJa() {
             <section className="mt-6">
               <h2 className="text-xl font-medium">学歴・国際経験</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
-                <li>早稲田大学 基幹理工学部（在学中）</li>
+                <li><strong>早稲田大学 情報理工学科（在学中）</strong></li>
                 <li>早稲田大学高等学院・中学部</li>
                 <li>Novi Middle School, Michigan, USA</li>
                 <li>幼少期: シンガポール滞在（2011–2013）</li>
@@ -343,7 +343,7 @@ export default function HomePageJa() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    NPO法人 日本サイエンスサービス（NSS）
+                    <strong>NPO法人 日本サイエンスサービス（NSS）</strong>
                   </a>
                   <strong>）</strong>
                   （2025年7月〜現在）— 高校生の研究発表支援、科学アウトリーチ活動

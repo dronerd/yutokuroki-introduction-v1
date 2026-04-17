@@ -99,7 +99,7 @@ export default function HomePageEn() {
 
               <p className="text-sm sm:text-base leading-snug px-2 md:px-0">
                 <strong className="block text-base">
-                  Second Year CS student at Waseda University School of Computer Science and Engineering
+                  Second Year student at Waseda University School of Computer Science and Engineering
                 </strong>
                 <span className="block mt-1">
                   Interested in ML, LLMs, Agentic AI, and AI for Healthcare.  
@@ -366,7 +366,7 @@ export default function HomePageEn() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    NPO Nippon Science Service (NSS)
+                    <strong>NPO Nippon Science Service (NSS)</strong>
                   </a>
                   {" "} (Jul 2025 – Present) — Contributed to science outreach and event operations, including exhibitions at{" "}
                   <a
