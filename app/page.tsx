@@ -6,11 +6,11 @@ import LanguageToggle from "./components/LanguageToggle"; // client component
 export const metadata = {
   title: "Yuto Kuroki",
   description:
-    "Profile page of Yuto Kuroki, Student at Waseda University School of Computer Science and Engineering, ISEF2025 Finalist",
+    "Profile page of Yuto Kuroki, Student at Waseda University CS, AI Research & Software Engineering, ISEF2025 Finalist",
   openGraph: {
     title: "Yuto Kuroki",
     description:
-      "Profile page of Yuto Kuroki, CS student at Waseda University School of Computer Science and Engineering, ISEF2025 Finalist",
+      "Profile page of Yuto Kuroki, Student at Waseda University CS, AI Research & Software Engineering, ISEF2025 Finalist",
     url: "https://yutokuroki.vercel.app",
     images: [{ url: "https://yutokuroki.vercel.app/images/profile3.JPG", width: 1200, height: 630 }],
     locale: "en_US",
@@ -24,7 +24,7 @@ export default function HomePageEn() {
   return (
     <>
       {/* Sticky Banner */}
-      <div className="w-full sticky top-0 z-50 bg-blue-600 text-white">
+      <div className="w-full sticky top-0 z-50 bg-gradient-to-r from-indigo-600 to-cyan-500 text-white">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center relative md:pr-24 lg:pr-8 xl:pr-0">
           {/* ページトップ */}
           <a
@@ -36,8 +36,8 @@ export default function HomePageEn() {
             }
             aria-label="scroll to top"
           >
-            <span className="inline md:hidden">Scroll to top</span>
-            <span className="hidden md:inline">Scroll to top — Yuto Kuroki&apos;s Profile</span>
+            <span className="inline lg:hidden">Scroll to top</span>
+            <span className="hidden lg:inline">Scroll to top — Yuto Kuroki&apos;s Profile</span>
           </a>
 
           {/* 右側のボタン群 */}
@@ -50,8 +50,8 @@ export default function HomePageEn() {
               className="px-3 py-2 text-sm md:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
               aria-label="external link: LinkedIn"
             >
-              <span className="inline md:hidden">LinkedIn</span>
-              <span className="hidden md:inline">See LinkedIn</span>
+              <span className="inline lg:hidden">LinkedIn</span>
+              <span className="hidden lg:inline">See LinkedIn</span>
             </a>
 
             {/* GitHub */}
@@ -81,7 +81,7 @@ export default function HomePageEn() {
 
               <h1 className="text-2xl sm:text-3xl font-semibold">Yuto Kuroki</h1>
               <p className="text-base sm:text-lg mt-1">
-                AI reserach & development | ISEF 2025 Finalist
+                AI reserach & Software Engineering <br/> ISEF 2025 Finalist
               </p>
 
               {/* Profile image — fixed-size */}
@@ -93,7 +93,6 @@ export default function HomePageEn() {
                   height={144}
                   className="object-cover w-full h-full"
                   priority
-                  quality={100}
                 />
               </div>
 
@@ -102,7 +101,7 @@ export default function HomePageEn() {
                   Second Year student at Waseda University School of Computer Science and Engineering
                 </strong>
                 <span className="block mt-1">
-                  Interested in ML, LLMs, Agentic AI, and AI for Healthcare.  
+                  Interested in ML, LLMs, Agentic AI, and Software Engineering.  
                 </span>
               </p>
 
@@ -192,7 +191,10 @@ export default function HomePageEn() {
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">        
                 <li>
-                  August 9 – September 27, 2026: Planned <strong>Research Internship</strong> at the <strong>Georgia Institute of Technology</strong> through the Nakatani RIES Program. Selected as one of 11 scholarship recipients from the Nakatani Foundation, will conduct research in a laboratory under faculty supervision.
+                  August 9 – September 27, 2026: Planned <strong>Research Internship</strong> at the <strong>Georgia Institute of Technology EPIC Lab</strong> through the Nakatani RIES Program. Selected as one of 11 scholarship recipients from the Nakatani Foundation.
+                </li>
+                <li>
+                  October 13, 2026: Scheduled to speak at <strong>TEDx WUSHS Youth Event</strong>.
                 </li>
               </ul>
 
@@ -473,7 +475,7 @@ export default function HomePageEn() {
             </section>
 
             {/* Footer */}
-            <footer className="mt-12 border-t pt-6 text-sm text-neutral-700 text-center md:text-left">
+            <footer className="mt-12 border-t pt-6 text-sm text-neutral-500 md:text-left">
               All content © {currentYear} Yuto Kuroki
             </footer>
             <Link href="/privacy" target="_blank">

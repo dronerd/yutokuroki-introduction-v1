@@ -6,11 +6,11 @@ import LanguageToggle from "../components/LanguageToggle"; // client component
 export const metadata = {
   title: "黒木 勇人",
   description:
-    "黒木勇人のプロフィールページ：早稲田大学情報理工学科２年、ISEF2025日本代表、AI研究開発",
+    "黒木勇人のプロフィールページ：早稲田大学情報理工学科２年、AI研究・ソフトウェア開発、ISEF2025日本代表",
   openGraph: {
     title: "黒木 勇人",
     description:
-      "黒木勇人のプロフィールページ：早稲田大学情報理工学科２年、ISEF2025日本代表、AI研究開発",
+      "黒木勇人のプロフィールページ：早稲田大学情報理工学科２年、AI研究・ソフトウェア開発、ISEF2025日本代表",
     url: "https://yutokuroki.vercel.app/ja",
     images: [{ url: "https://yutokuroki.vercel.app/images/profile3.JPG", width: 1200, height: 630 }],
     locale: "ja_JP",
@@ -23,7 +23,7 @@ export default function HomePageJa() {
   return (
     <>
       {/* Sticky Banner */}
-      <div className="w-full sticky top-0 z-50 bg-blue-600 text-white">
+      <div className="w-full sticky top-0 z-50 bg-gradient-to-r from-indigo-600 to-cyan-500 text-white">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center relative md:pr-24 lg:pr-8 xl:pr-0">
           {/* ページトップ */}
           <a
@@ -35,8 +35,8 @@ export default function HomePageJa() {
             }
             aria-label="ページトップへスクロール"
           >
-            <span className="inline md:hidden">ページトップ</span>
-            <span className="hidden md:inline">ページトップへ — 黒木勇人のプロファイル</span>
+            <span className="inline lg:hidden">ページトップ</span>
+            <span className="hidden lg:inline">ページトップへ — 黒木勇人のプロファイル</span>
           </a>
 
           {/* 右側のボタン群 */}
@@ -49,8 +49,8 @@ export default function HomePageJa() {
               className="px-3 py-2 text-sm md:text-base font-medium text-white bg-blue-900 rounded-full shadow-md transition-transform duration-200 hover:bg-blue-700 hover:scale-105 whitespace-nowrap"
               aria-label="外部リンク: LinkedIn"
             >
-              <span className="inline md:hidden">LinkedIn</span>
-              <span className="hidden md:inline">LinkedInを見る</span>
+              <span className="inline lg:hidden">LinkedIn</span>
+              <span className="hidden lg:inline">LinkedInを見る</span>
             </a>
 
             {/* GitHub */}
@@ -79,7 +79,7 @@ export default function HomePageJa() {
 
               <h1 className="text-2xl sm:text-3xl font-semibold">黒木 勇人</h1>
               <p className="text-base sm:text-lg mt-1">
-                AI研究開発 ｜ ISEF2025日本代表
+                AI研究・ソフトウェア開発 <br/> ISEF2025日本代表
               </p>
 
 
@@ -92,14 +92,13 @@ export default function HomePageJa() {
                   height={144}
                   className="object-cover w-full h-full"
                   priority
-                  quality={100}
                 />
               </div>
 
               <p className="text-sm sm:text-base leading-relaxed px-2 md:px-0">
                 <strong className="block">早稲田大学情報理工学科2年</strong>
                 <span className="block mt-1">
-                  機械学習、LLM、Agentic AI、ヘルスケア分野へのAI応用に関心があります。
+                  機械学習、LLM、Agentic AI、ソフトウェア開発に関心があります。
                 </span>
               </p>
 
@@ -188,7 +187,10 @@ export default function HomePageJa() {
               <h2 className="text-xl font-medium">今後の活動</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  2026年8月9日〜9月27日：Nakatani RIESプログラムを通じて<strong>ジョージア工科大学</strong>にて<strong>研究インターンシップ</strong>予定。中谷財団の奨学生として選抜され、研究室にて研究活動に従事予定。
+                  2026年8月9日〜9月27日： 中谷財団のNakatani RIESプログラムに選抜され、<strong>ジョージア工科大学のEPIC Lab</strong>にて<strong>研究インターンシップ</strong>予定。
+                </li>
+                <li>
+                  2026年10月13日：　<strong>TEDx WUSHS Youth Event</strong>にて登壇予定。
                 </li>
               </ul>
 
