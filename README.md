@@ -2,7 +2,7 @@
 
 AI / ML-focused portfolio showcasing research, projects, and international experience (ISEF 2025 Finalist).
 
-![Screenshot](./public/screenshot.png)
+![Screenshot](./public/images/screenshot.png)
 
 🌐 **Live Site:** https://yutokuroki.vercel.app
 
