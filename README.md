@@ -40,7 +40,7 @@ The site also features **Project Fluence**, an initiative I founded to support E
 ### 🔗 External Integrations
 
 * GitHub / LinkedIn
-* Note articles
+* note articles
 * Media & publications
 
 ### ⚡ Performance & SEO
@@ -126,7 +126,7 @@ This project is deployed on **Vercel** for fast global delivery and seamless int
 
 ---
 
-## 📌 Notes
+## 📌 notes
 
 * Built using the **Next.js App Router**
 * Tailwind CSS is configured via PostCSS

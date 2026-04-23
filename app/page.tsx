@@ -141,21 +141,8 @@ export default function HomePageEn() {
                 <Link aria-label="Project Fluence" href="https://projectfluence.vercel.app" className="underline" target="_blank">
                   <strong>Project Fluence</strong>
                 </Link>{" "}
-                to help more people in Japan achieve their dreams through English skills and their areas of expertise. I personally create English learning apps utilizing AI and write Note articles. Feel free to check them out!
+                , an AI-powered platform to help more people in Japan achieve their dreams through English skills and their areas of expertise. I personally create English learning AI apps and write note articles. Feel free to check them out!
               </p>
-
-              <h2 className="mt-6 text-xl font-medium">
-                <strong>Latest Apps</strong>
-              </h2>
-              <p className="mt-2 text-neutral-900 text-sm sm:text-base">
-                English vocabulary learning app{" "}
-                <a className="underline" href="https://vocabstream.vercel.app" target="_blank" rel="noopener noreferrer">
-                  <strong>VocabStream</strong>
-                </a>
-              </p>
-              <Link href="https://vocabstream.vercel.app" target="_blank" className="inline-block ml-2">
-                <Image src="/VocabStream.png" alt="VocabStream preview" width={84} height={84} className="rounded-md object-cover" />
-              </Link>
 
               {/* Latest activities */}
               <h2 className="mt-6 text-xl font-medium">
@@ -189,32 +176,32 @@ export default function HomePageEn() {
                 </li>
               </ul>
 
-            {/* Latest Note articles */}
+            {/* Latest note articles */}
               <h2 className="mt-6 text-xl font-medium">
-                <strong>Latest Note Articles</strong>
+                <strong>Latest note Articles</strong>
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
-                <li key="Note Article1" className="py-0.5">
+                <li key="note Article1" className="py-0.5">
                     <a href="https://note.com/projectfluence/n/n05e8b127014f" className="underline" target="_blank" rel="noopener noreferrer">
                       大学生の自己紹介 ― 黒木勇人｜Project Fluence｜英語アプリ｜英検１級・TOEIC満点・TOEFL116/120・ドイツ語上級
                     </a>
                 </li>
-                <li key="Note Article2" className="py-0.5">
+                <li key="note Article2" className="py-0.5">
                     <a href="https://note.com/projectfluence/n/nd806d6fa00ec" className="underline" target="_blank" rel="noopener noreferrer">
                       日本にいながらネイティブ級へ─英語力を効果的に伸ばす学習方法｜英検１級・TOEIC満点・TOEFL116/120・ドイツ語上級
                     </a>
                 </li>
-                <li key="Note Article3" className="py-0.5">
+                <li key="note Article3" className="py-0.5">
                     <a href="https://note.com/projectfluence/n/n751ab984987a" className="underline" target="_blank" rel="noopener noreferrer">
                       英語学習にも応用できる！第２外国語（ドイツ語）から見えてきた効果的な言語学習法
                     </a>
                 </li>  
-                <li key="Note Article4" className="py-0.5">
+                <li key="note Article4" className="py-0.5">
                     <a href="https://note.com/projectfluence/n/nb5ee0137b415" className="underline" target="_blank" rel="noopener noreferrer">
                       世界最難関の英語検定試験：ケンブリッジ英検C2 Proficiency（CPE）に合格しました！（リーディング・リスニング満点）
                     </a>
                 </li>  
-                <li key ="Note Article5" className="py-0.5">
+                <li key ="note Article5" className="py-0.5">
                     <a href="https://note.com/projectfluence/n/n71bd9003af29" className="underline" target="_blank" rel="noopener noreferrer">
                     （上級者向け）日本にいながら英語力をさらに高める効果的な方法
                     </a>
