@@ -103,12 +103,9 @@ export default function HomePageJa() {
               </p>
 
               <div className="mt-2 flex flex-col gap-1 text-base">
-                <div>
-                  <strong>Email:</strong>{" "}
-                  <a className="underline break-words" href="mailto:yutokuroki.projectfluence@gmail.com">
-                    yutokuroki.projectfluence@gmail.com
-                  </a>
-                </div>
+                <a href="https://note.com/projectfluence" target="_blank" rel="noopener noreferrer" className="underline">
+                  note
+                </a>
                 <a href="https://github.com/dronerd" target="_blank" rel="noopener noreferrer" className="underline">
                   GitHub
                 </a>
