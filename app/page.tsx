@@ -5,17 +5,11 @@ import LanguageToggle from "./components/LanguageToggle"; // client component
 
 export const metadata = {
   title: "Yuto Kuroki",
-  description:
-    "Profile page of Yuto Kuroki, Student at Waseda University CS, AI Research & Software Engineering, ISEF2025 Finalist",
+  description: "Profile page of Yuto Kuroki, Student at Waseda University CS, AI Research & Software Engineering, ISEF2025 Finalist",
   openGraph: {
-    title: "Yuto Kuroki",
-    description:
-      "Profile page of Yuto Kuroki, Student at Waseda University CS, AI Research & Software Engineering, ISEF2025 Finalist",
-    url: "https://yutokuroki.vercel.app",
-    images: [{ url: "https://yutokuroki.vercel.app/images/profile3.JPG", width: 1200, height: 630 }],
     locale: "en_US",
+    url: "https://yutokuroki.vercel.app",
   },
-  twitter: { card: "summary_large_image", images: ["https://yutokuroki.vercel.app/images/profile3.JPG"] },
 };
 
 export default function HomePageEn() {

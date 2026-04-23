@@ -5,17 +5,11 @@ import LanguageToggle from "../components/LanguageToggle"; // client component
 
 export const metadata = {
   title: "黒木 勇人",
-  description:
-    "黒木勇人のプロフィールページ：早稲田大学情報理工学科２年、AI研究・ソフトウェア開発、ISEF2025日本代表",
+  description: "黒木勇人のプロフィールページ：早稲田大学情報理工学科２年、AI研究・ソフトウェア開発、ISEF2025日本代表",
   openGraph: {
-    title: "黒木 勇人",
-    description:
-      "黒木勇人のプロフィールページ：早稲田大学情報理工学科２年、AI研究・ソフトウェア開発、ISEF2025日本代表",
-    url: "https://yutokuroki.vercel.app/ja",
-    images: [{ url: "https://yutokuroki.vercel.app/images/profile3.JPG", width: 1200, height: 630 }],
     locale: "ja_JP",
+    url: "https://yutokuroki.vercel.app/ja",
   },
-  twitter: { card: "summary_large_image", images: ["https://yutokuroki.vercel.app/images/profile3.JPG"] },
 };
 
 export default function HomePageJa() {
