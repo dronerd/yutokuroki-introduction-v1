@@ -245,7 +245,7 @@ export default function HomePageEn() {
                 </li>
                 <li>
                   <a href="https://manabu.asahi.com/jsec/2024/award/index.html" target="_blank" rel="noopener noreferrer" className="underline">
-                    <strong>JSEC 2025 Finalist &amp; Sony Award (8th nationally)</strong>
+                    <strong>JSEC 2025 Finalist &amp; Sony Award </strong>
                   </a>
                   — Research on drone delivery optimization
                 </li>

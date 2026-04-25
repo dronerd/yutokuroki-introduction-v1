@@ -232,7 +232,7 @@ export default function HomePageJa() {
                 </li>
                 <li>
                   <a href="https://manabu.asahi.com/jsec/2024/award/index.html" target="_blank" rel="noopener noreferrer" className="underline">
-                    <strong>JSEC 2025 ファイナリスト &amp; ソニー賞（全国8位）</strong>
+                    <strong>JSEC 2025 ファイナリスト &amp; ソニー賞 </strong>
                   </a>
                   — ドローン配送最適化の研究
                 </li>
