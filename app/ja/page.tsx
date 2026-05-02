@@ -140,7 +140,7 @@ export default function HomePageJa() {
                 <Link aria-label="Project Fluence" href="https://projectfluence.vercel.app" className="underline" target="_blank">
                   <strong>Project Fluence</strong>
                 </Link>
-                は私の英語学習ノウハウを活用したAIアプリが連携して学習体験を最適化する、英語学習のエコシステムです。
+                は私の英語学習ノウハウを活用したAIアプリが連携して学習体験を最適化する、英語学習のプラットフォームです。
                 英語力とそれぞれの専門性を活かし、日本から世界へ挑戦する人を増やすことを目指しています。
                 AI英語学習アプリの開発や、noteでの記事執筆を行っています。
                 ぜひご覧ください!
@@ -167,7 +167,7 @@ export default function HomePageJa() {
               <h2 className="text-xl font-medium">今後の活動</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
-                  2026年8月9日〜9月27日： 中谷財団のNakatani RIESプログラムに選抜され、<strong>ジョージア工科大学のEPIC Lab</strong>にて<strong>研究インターンシップ</strong>予定。
+                  2026年8月9日〜9月27日： 中谷財団のNakatani RIESプログラムに選抜され、<strong>アメリカのジョージア工科大学のEPIC Lab</strong>にて<strong>ディープラーニングモデルの研究インターンシップ</strong>予定。
                 </li>
                 <li>
                   2026年10月13日：　<strong>TEDx WUSHS Youth Event</strong>にて登壇予定。

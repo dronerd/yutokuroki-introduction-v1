@@ -18,9 +18,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Yuto Kuroki",
   description: "Profile Page of Yuto Kuroki, Student at Waseda University CS, AI Research & Software Engineering, ISEF2025 Finalist",
-
   icons: {
-    icon: "/icon.png",        // ← app/icon.png (192x192)
+    icon: "/favicon.ico",        // ← public/favicon.ico (192x192)
     apple: "/icon.png",       // iOS Safari 対応（任意だが推奨）
   },
 
@@ -36,6 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    title: "Yuto Kuroki",
+    description: "Profile page of Yuto Kuroki, Student at Waseda University CS, AI Research & Software Engineering, ISEF2025 Finalist",
     images: ["https://yutokuroki.vercel.app/images/profile3.JPG"],
   },
 };
