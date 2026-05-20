@@ -113,7 +113,7 @@ export default function HomePageJa() {
               <p className="text-sm sm:text-base leading-relaxed px-2 md:px-0">
                 <strong className="block">早稲田大学情報理工学科2年</strong>
                 <span className="block mt-1">
-                  機械学習、LLM、Agentic AI、ソフトウェア開発に関心があります。
+                  機械学習、LLM、Agentic AI、ソフトウェア開発に関心があります。英語とドイツ語でC2レベルの能力を持っています。
                 </span>
               </p>
 
@@ -207,13 +207,6 @@ export default function HomePageJa() {
                     </div>
                   ))}
                 </div>
-                <Image
-                  src="/images/second_canvas.png"
-                  alt="2つ目のフォトキャンバス"
-                  width={1983}
-                  height={793}
-                  className="mt-4 h-auto w-full rounded-md object-cover"
-                />
               </div>
             </section>
 

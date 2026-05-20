@@ -116,7 +116,7 @@ export default function HomePageEn() {
                   Second Year student at Waseda University School of Computer Science and Engineering
                 </strong>
                 <span className="block mt-1">
-                  Interested in ML, LLMs, Agentic AI, and Software Engineering.  
+                  Interested in ML, LLMs, Agentic AI, and Software Engineering. English C2 and German C2 proficiency.
                 </span>
               </p>
 
@@ -209,13 +209,6 @@ export default function HomePageEn() {
                     </div>
                   ))}
                 </div>
-                <Image
-                  src="/images/second_canvas.png"
-                  alt="Second photo canvas"
-                  width={1983}
-                  height={793}
-                  className="mt-4 h-auto w-full rounded-md object-cover"
-                />
               </div>
             </section>
 
