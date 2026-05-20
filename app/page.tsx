@@ -3,6 +3,27 @@ import Link from "next/link";
 import Image from "next/image";
 import LanguageToggle from "./components/LanguageToggle"; // client component
 
+const profileCanvasRows = [
+  [
+    { src: "/images/canvas1.jpg", alt: "Yuto Kuroki canvas image 1", tilt: "-rotate-3" },
+    { src: "/images/canvas2.JPEG", alt: "Yuto Kuroki canvas image 2", tilt: "rotate-2" },
+    { src: "/images/canvas3.JPG", alt: "Yuto Kuroki canvas image 3", tilt: "-rotate-1" },
+    { src: "/images/canvas4.JPG", alt: "Yuto Kuroki canvas image 4", tilt: "rotate-3" },
+    { src: "/images/canvas5.JPG", alt: "Yuto Kuroki canvas image 5", tilt: "-rotate-2" },
+    { src: "/images/canvas6.png", alt: "Yuto Kuroki canvas image 6", tilt: "rotate-2" },
+    { src: "/images/canvas7.JPG", alt: "Yuto Kuroki canvas image 7", tilt: "-rotate-3" },
+  ],
+  [
+    { src: "/images/canvas8.JPG", alt: "Yuto Kuroki canvas image 8", tilt: "rotate-1" },
+    { src: "/images/canvas9.JPG", alt: "Yuto Kuroki canvas image 9", tilt: "-rotate-2" },
+    { src: "/images/canvas10.JPG", alt: "Yuto Kuroki canvas image 10", tilt: "rotate-3" },
+    { src: "/images/canvas11.png", alt: "Yuto Kuroki canvas image 11", tilt: "-rotate-1" },
+    { src: "/images/canvas12.JPG", alt: "Yuto Kuroki canvas image 12", tilt: "rotate-2" },
+    { src: "/images/canvas13.JPG", alt: "Yuto Kuroki canvas image 13", tilt: "-rotate-3" },
+    { src: "/images/canvas14.jpg", alt: "Yuto Kuroki canvas image 14", tilt: "rotate-1" },
+  ],
+];
+
 export const metadata = {
   title: "Yuto Kuroki",
   description: "Profile page of Yuto Kuroki, Student at Waseda University CS, AI Research & Software Engineering, ISEF2025 Finalist",
@@ -79,9 +100,9 @@ export default function HomePageEn() {
               </p>
 
               {/* Profile image — fixed-size */}
-              <div className="flex-shrink-0 h-28 w-28 sm:h-36 sm:w-36 rounded-full overflow-hidden bg-neutral-200 mx-auto md:mx-0">
+              <div className="flex-shrink-0 h-28 w-28 sm:h-36 sm:w-36 rounded-3xl overflow-hidden bg-neutral-200 mx-auto md:mx-0">
                 <Image
-                  src="/images/profile3.JPG"
+                  src="/images/profile4.png"
                   alt="Profile of Yuto Kuroki"
                   width={144}
                   height={144}
@@ -160,6 +181,42 @@ export default function HomePageEn() {
                   Development of English learning apps for Project Fluence{" "}
                 </li>
               </ul>
+            </section>
+
+            {/* Photo Canvas */}
+            <section className="mt-6">
+              <h2 className="text-xl font-medium">
+                <strong>Photo Canvas</strong>
+              </h2>
+              <div className="mt-3 max-w-3xl rounded-lg bg-white px-3 py-4 shadow-sm">
+                <div className="space-y-2 overflow-x-auto py-1">
+                  {profileCanvasRows.map((row, rowIndex) => (
+                    <div key={`canvas-row-${rowIndex}`} className="flex items-center gap-2">
+                      {row.map((image, imageIndex) => (
+                        <div
+                          key={`${image.src}-${imageIndex}`}
+                          className={`relative h-16 w-20 flex-none overflow-hidden rounded-md bg-neutral-200 shadow-sm ring-2 ring-white transition-transform hover:z-10 hover:scale-110 sm:h-20 sm:w-24 ${image.tilt}`}
+                        >
+                          <Image
+                            src={image.src}
+                            alt={image.alt}
+                            fill
+                            sizes="96px"
+                            className="object-cover"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  ))}
+                </div>
+                <Image
+                  src="/images/second_canvas.png"
+                  alt="Second photo canvas"
+                  width={1983}
+                  height={793}
+                  className="mt-4 h-auto w-full rounded-md object-cover"
+                />
+              </div>
             </section>
 
             {/* Upcoming Activities & Articles */}
