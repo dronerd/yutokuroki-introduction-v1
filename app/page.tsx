@@ -259,22 +259,6 @@ export default function HomePageEn() {
               </ul>
             </section>
 
-             
-            {/* Academic Records */}
-            <section className="mt-6">
-              <h2 className="text-xl font-medium">
-                <strong>Academic Records</strong>
-              </h2>
-              <div className="mt-2 text-base sm:text-base">
-                <h3 className="mt-4 font-semibold">GPA (Waseda Scale, A = 3, A+ = 4)</h3>
-                <p className="mt-1">
-                  Semester 1: <strong>3.89</strong> / 4.00<br />
-                  Semester 2: <strong>3.97</strong> / 4.00<br />
-                  Cumulative: <strong>3.94</strong> / 4.00
-                </p>
-              </div>
-            </section>
-
             {/* Research & Awards */}
             <section className="mt-6">
               <h2 className="text-xl font-medium">
