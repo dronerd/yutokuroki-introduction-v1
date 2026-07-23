@@ -292,6 +292,9 @@ export default function HomePageJa() {
               <h2 className="mt-6 text-xl font-medium">受賞・栄誉</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
+                  <strong>大隈記念奨学金（基幹理工学部）奨学生</strong>（早稲田大学基幹理工学部、2026年7月）— 2〜4年生約1,800名のうち、学業成績を重視した選考により6名の奨学生に採用。1年次累積GPAは3.94/4.00。年額40万円。
+                </li>
+                <li>
                   <a href="https://www.mext.go.jp/b_menu/houdou/2025/1416581_00001.htm" target="_blank" rel="noopener noreferrer" className="underline">
                     <strong>文部科学大臣特別賞</strong>
                   </a>

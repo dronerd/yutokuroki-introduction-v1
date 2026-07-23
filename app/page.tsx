@@ -308,6 +308,9 @@ export default function HomePageEn() {
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
+                  <strong>Okuma Memorial Scholarship Recipient</strong> (Waseda University School of Fundamental Science and Engineering, July 2026) — Selected as one of six recipients from approximately 1,800 second- to fourth-year students, primarily based on academic achievement and a first-year cumulative GPA of 3.94/4.00. Annual award: ¥400,000.
+                </li>
+                <li>
                   <a href="https://www.mext.go.jp/b_menu/houdou/2025/1416581_00001.htm" target="_blank" rel="noopener noreferrer" className="underline">
                     <strong>Minister of Education, Culture, Sports, Science and Technology Special Award</strong>
                   </a>
