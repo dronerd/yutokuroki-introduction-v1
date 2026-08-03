@@ -171,6 +171,9 @@ export default function HomePageEn() {
               </h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
+                  Research internship at the <strong>Georgia Institute of Technology EPIC Lab</strong> through the Nakatani RIES Program, focusing on <strong>deep learning for robotic exoskeletons</strong>
+                </li>
+                <li>
                   Supporting {" "} 
                   <a className="underline" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">
                     ISEF2026
@@ -218,9 +221,6 @@ export default function HomePageEn() {
                 <strong>Upcoming Activities</strong>
               </h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">        
-                <li>
-                  August 9 – September 27, 2026: Planned <strong>Research Internship</strong> at the <strong>Georgia Institute of Technology EPIC Lab</strong> through the Nakatani RIES Program. Selected as one of 11 scholarship recipients from the Nakatani Foundation.
-                </li>
                 <li>
                   October 13, 2026: Scheduled to speak at <strong>TEDx WUSHS Youth Event</strong>.
                 </li>

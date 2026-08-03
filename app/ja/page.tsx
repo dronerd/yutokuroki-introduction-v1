@@ -171,6 +171,9 @@ export default function HomePageJa() {
               <h2 className="mt-6 text-xl font-medium">現在の活動</h2>
               <ul className="mt-2 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
                 <li>
+                  Nakatani RIESプログラムを通じた<strong>アメリカのジョージア工科大学EPIC Lab</strong>での研究インターンシップ。<strong>ロボット外骨格のためのディープラーニング</strong>について研究
+                </li>
+                <li>
                   NSSスタッフとして{" "}
                   <a className="underline" href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener noreferrer">
                     ISEF2026
@@ -214,9 +217,6 @@ export default function HomePageJa() {
             <section className="mt-6">
               <h2 className="text-xl font-medium">今後の活動</h2>
               <ul className="mt-3 list-disc pl-6 text-neutral-800 text-sm sm:text-base">
-                <li>
-                  2026年8月9日〜9月27日： 中谷財団のNakatani RIESプログラムに選抜され、<strong>アメリカのジョージア工科大学のEPIC Lab</strong>にて<strong>ディープラーニングモデルの研究インターンシップ</strong>予定。
-                </li>
                 <li>
                   2026年10月13日：　<strong>TEDx WUSHS Youth Event</strong>にて登壇予定。
                 </li>
